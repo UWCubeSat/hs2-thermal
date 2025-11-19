@@ -1,0 +1,12 @@
+#Input dimensions here
+l  =
+w =
+h =
+
+#Check UNP official budgets
+efficiency =
+power_draw =
+volume = l * w * h
+
+Q_gen = (1-efficiency)*(power_draw)/(volume)
+print(Q_gen)
