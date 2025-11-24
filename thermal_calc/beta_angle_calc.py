@@ -36,7 +36,7 @@ plt.xlabel('Beta Angle (Degrees)')
 plt.ylabel('Time (minutes)')
 plt.legend()
 
-# plt.show()
+plt.show()
 
 
 # ---True anomaly sunlight dict---
@@ -47,7 +47,6 @@ def sun_dict(altitude, beta_angle):
     half_angle = np.degrees(angle_of_eclipse(altitude, beta_angle))  # half-angle in degrees
 
     for angle in range(360):
-        # Eclipse interval: around the "back" of Earth
         if angle >= (180 - half_angle) and angle <= (360 - half_angle):
             sun_dict[angle] = 0
         else:
