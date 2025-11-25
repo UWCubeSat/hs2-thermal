@@ -36,7 +36,7 @@ plt.xlabel('Beta Angle (Degrees)')
 plt.ylabel('Time (minutes)')
 plt.legend()
 
-plt.show()
+# plt.show()
 
 
 # ---True anomaly sunlight dict---
@@ -50,13 +50,11 @@ def sun_dict(altitude, beta_angle):
         if angle >= (180 - half_angle) and angle <= (360 - half_angle):
             sun_dict[angle] = 0
         else:
-            sun_dict[angle] = 100
+            sun_dict[angle] = 1361
     
     return sun_dict
 
 
 # called angle has to be > 0
-print(sun_dict(500e3, 0)[180])
-print(sun_dict(500e3, 45)[10])
-print(sun_dict(500e3, 90)[180])
-print(sun_dict(500e3, 180)[0])
+print(sun_dict(500e3, 0))
+
