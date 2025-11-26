@@ -41,8 +41,8 @@ plt.legend()
 
 # ---True anomaly sunlight dict---
 # in the future this will need to be reworked for returning intensities between 0 and 100
-def angle_to_time_mins(angle_deg):
-    return (float(T_orbit) * angle_deg / 360) / 60
+def angle_to_time_sec(angle_deg):
+    return round((float(T_orbit) * angle_deg / 360), 1)
 
 def sun_dict(altitude, beta_angle):
     sun_dict = {}
@@ -51,13 +51,13 @@ def sun_dict(altitude, beta_angle):
 
     for angle in range(360):
         if angle >= (180 - half_angle) and angle <= (360 - half_angle):
-            sun_dict[abs(angle)] = 0, f'{angle_to_time_mins(angle):.3f} mins'
+            sun_dict[abs(angle)] = 0, angle_to_time_sec(angle)
         else:
-            sun_dict[abs(angle)] = 1361, f'{angle_to_time_mins(angle):.3f} mins'
+            sun_dict[abs(angle)] = 1361, angle_to_time_sec(angle)
     
     return sun_dict
 
 
 
-print(sun_dict(500e3, 0)[0])
+print(sun_dict(420e3, 0))
 
