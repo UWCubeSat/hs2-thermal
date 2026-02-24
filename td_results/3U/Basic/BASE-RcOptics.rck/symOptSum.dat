@@ -1,0 +1,41 @@
+C    DWG name:      3U.dwg
+C    Thermophysical Property Database: ..\..\Documents\TdThermo.tdp
+C    Optical Property Database:        ..\..\Documents\RcOptics.rco
+C    Computer name: HSLLAB
+C    Symbol Names, Evaluated values, Input Strings, Comments
+C    beta_angle           0.            0
+C    hrBetaAngle          0.            0
+C    hrEccen              0.            0
+C    hrIllum              0.            0
+C    hrMeanAnom           324.          324
+C    hrPeriod             5676.98       5676.98              Always in current user units. If programming, use hrPeri...
+C    hrPeriodSec          5676.98       5676.98
+C    hrPlanetX            -0.987688     -0.987688
+C    hrPlanetY            0.            0
+C    hrPlanetZ            -0.1564345    -1.564344650400e-01 
+C    hrPos                20.           20
+C    hrShadowEntry        111.9846      1.119845819092e+02  
+C    hrShadowExit         248.0154      2.480154180909e+02  
+C    hrSpeed              7.61261       7.61261
+C    hrSubSolarMeanAnom   6.113030e-12  6.11303e-12          -180 to 180
+C    hrSubSolarTrueAnom   6.113030e-12  6.11303e-12          -180 to 180
+C    hrSunX               0.707107      0.707107
+C    hrSunY               0.            0
+C    hrSunZ               0.707107      0.707107
+C    hrTime               5109.28       5109.28              Always in current user units. If programming, use hrTime...
+C    hrTimeSec            5109.28       5109.28
+C    hrTimeShadowEntry    1765.928      1.765927779927e+03  
+C    hrTimeShadowEntrySec 1765.928      1.765927779927e+03  
+C    hrTimeShadowExit     3911.05       3911.05
+C    hrTimeShadowExitSec  3911.05       3911.05
+C    hrTrueAnom           324.          324
+C    hrVelocityX          -0.1564345    -1.564344650400e-01 
+C    hrVelocityY          0.            0
+C    hrVelocityZ          0.987688      0.987688
+C
+C Optical Properties Used:
+C PROPERTY NAME EMISS ALPHA IR TRANS SOL TRANS IR TSPEC SOL TSPEC IR REFL SPEC SOL REFL SPEC
+C Aluminum      0.8   0.8                                                      
+C Battery       0.5   0.5                                                      
+C pcb           0.9   0.9                                                      
+C

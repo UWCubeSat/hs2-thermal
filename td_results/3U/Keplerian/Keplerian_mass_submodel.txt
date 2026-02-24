@@ -1,0 +1,5 @@
+Submodel, Substrate, Insulation Mass, kg
+  MAIN 1.89000 0.
+Total: 1.89000 0.
+
+Total Mass = 1.890000 kg

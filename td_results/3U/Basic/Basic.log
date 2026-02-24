@@ -1,0 +1,57 @@
+[ AutoCAD - Mon Feb 23 19:33:50 2026  ]----------------------------------------
+No duplicate nodes or insulation nodalization warnings found
+
+Calculating Sinda data
+Face Contactor[MAIN][0]::EA4
+From areas = 0.01982439, To areas = 0.008646402
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_MAIN_EA4.txt contains warnings
+Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+From areas = 0.01, To areas = 0.006361725
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_MAIN_EC7.txt contains warnings
+Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+From areas = 0.01, To areas = 0.006361725
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+
+ContactorData\Warnings_MAIN_EC8.txt contains warnings
+Calculating Thermal Analyzer Input took 0.33 sec
+
+Outputting Sinda data
+Outputting data for submodel GLOBAL...
+Outputting data for submodel GLOBAL_INIT...
+Outputting data for submodel MAIN...
+Outputting data for submodel SPACE...
+    Number of nodes:      252
+    Number of conductors: 710
+    
+Total Nodal Mass = 2.818748 kg
+
+
+*** RADCAD RAYTRACE RADK RUN START for database BASE-RcOptics.rck
+Database already exists, checking to see if the model has changed...
+Restart was successful. No calculations were performed.
+    250 calculation nodes
+    9291 radks were output, 9554 radks were filtered out
+    0 nodes(0%) have bij sum + bij inactive < .9
+    5000 average number of rays per node shot
+     
+    No overlapping surfaces greater than 10.0% found in BASE
+
+
+*** RADCAD RAYTRACE HEATING RATES RUN START for database BASE-orbit-RcOptics.rch
+Database already exists, checking to see if the model has changed...
+Restart was successful. No calculations were performed.
+
+*** Running Sinda model named C:\Users\HSL Lab\Thermal Desktop\3U\Basic\Basic.inp
+Successful completion of processor
+From C:\Users\HSL Lab\Thermal Desktop\3U\Basic\messages_Basic.log
+     TIMEN  =    5676.980      The ASTAP execution time is:    7.50642110000263       seconds
+Time to run Sinda = 10.17 sec
+
+Case Set Solved::Elapsed time = 11.06 sec

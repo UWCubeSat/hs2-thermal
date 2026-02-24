@@ -1,0 +1,64 @@
+Current Patch Level = 2
+Version = 25.2 Intel Fortran
+
+Microsoft (R) Incremental Linker Version 14.44.35219.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-out:astap.exe 
+-map:astap.map 
+-debug 
+-pdb:astap.pdb 
+-subsystem:console 
+-incremental:no 
+-defaultlib:libiomp5md.lib 
+-nodefaultlib:vcomp.lib 
+-nodefaultlib:vcompd.lib 
+"/LIBPATH:C:\Program Files\ANSYS Inc\v252\CRTech\SindaFluint\lib" 
+fluintreasonmgr.lib 
+sfsavexreader.lib 
+savexwriter.lib 
+FMI_Client.lib 
+SFUtils.lib 
+procesCur16.lib 
+ProcessModulesDll_16.lib 
+ProcessorCGlobals_16.lib 
+utilityCur_16.lib 
+amg_16.lib 
+amg_16_interface.lib 
+tdsubproc.lib 
+statwin.lib 
+sfmatlab.lib 
+LVCompartment.lib 
+multicalc16.lib 
+sindaprepro.lib 
+/STACK:100000000 
+/MAP 
+/MANIFEST 
+astap.obj 
+userLogic.obj 
+fluintreasonmgr.lib 
+sfsavexreader.lib 
+savexwriter.lib 
+FMI_Client.lib 
+SFUtils.lib 
+procesCur16.lib 
+ProcessModulesDll_16.lib 
+ProcessorCGlobals_16.lib 
+utilityCur_16.lib 
+amg_16.lib 
+amg_16_interface.lib 
+tdsubproc.lib 
+statwin.lib 
+sfmatlab.lib 
+LVCompartment.lib 
+multicalc16.lib 
+sindaprepro.lib 
+   Creating library astap.lib and object astap.exp
+Intel(R) Fortran Compiler for applications running on Intel(R) 64, Version 2025.3.0 Build 20251010
+Copyright (C) 1985-2025 Intel Corporation. All rights reserved.
+
+ifx  astap.for userLogic.for /warn:declarations /warn:truncated_source /Qopenmp /fpe:0 /real-size:64 /integer-size:64 /names:lowercase /iface:cref "/I:C:\Program Files\ANSYS Inc\v252\CRTech\SindaFluint\mod\Current" /MD /iface:mixed_str_len_arg "/include:C:\Program Files\ANSYS Inc\v252\CRTech\SindaFluint\lib" /assume:byterecl /extend-source:132 -O3 /traceback /INCREMENTAL:NO
+ifx: command line remark #10148: option '/link' not supported
+ifx: command line warning #10006: ignoring unknown option '/LIBPATH:C:\Program Files\ANSYS Inc\v252\CRTech\SindaFluint\lib'
+ifx: command line warning #10006: ignoring unknown option '/STACK:100000000'
+ifx: command line warning #10006: ignoring unknown option '/MANIFEST'

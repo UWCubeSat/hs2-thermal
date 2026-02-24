@@ -1,0 +1,2269 @@
+Node: MAIN.1
+      Disk-+Z Patch Antenna[MAIN]::EBD
+      MAIN.1::EBF
+Node: MAIN.2
+      Disk-+Z Patch Antenna[MAIN]::EBD
+      MAIN.2::EC0
+Node: MAIN.3
+      Disk-+Z Patch Antenna[MAIN]::EBD
+      MAIN.3::EC1
+Node: MAIN.4
+      Disk-+Z Patch Antenna[MAIN]::EBD
+      MAIN.4::EC2
+Node: MAIN.5
+      Disk-+Z Patch Antenna[MAIN]::EBD
+      MAIN.5::EC3
+Node: MAIN.6
+      Disk-+Z Patch Antenna[MAIN]::EBD
+      MAIN.6::EC4
+Node: MAIN.7
+      Disk-+Z Patch Antenna[MAIN]::EBD
+      MAIN.7::EC5
+Node: MAIN.8
+      Disk-+Z Patch Antenna[MAIN]::EBD
+      MAIN.8::EC6
+Node: MAIN.9
+      FD Brick[MAIN]::E87
+      MAIN.9::E91
+Node: MAIN.10
+      FD Brick[MAIN]::E87
+      MAIN.10::E92
+Node: MAIN.11
+      FD Brick[MAIN]::E87
+      MAIN.11::E93
+Node: MAIN.12
+      FD Brick[MAIN]::E87
+      MAIN.12::E94
+Node: MAIN.13
+      FD Brick[MAIN]::E87
+      MAIN.13::E95
+Node: MAIN.14
+      FD Brick[MAIN]::E87
+      MAIN.14::E96
+Node: MAIN.15
+      FD Brick[MAIN]::E87
+      MAIN.15::E97
+Node: MAIN.16
+      FD Brick[MAIN]::E87
+      MAIN.16::E98
+Node: MAIN.17
+      FD Brick[MAIN]::E87
+      MAIN.17::E99
+Node: MAIN.18
+      FD Brick[MAIN]::E87
+      MAIN.18::E9A
+Node: MAIN.19
+      FD Brick[MAIN]::E87
+      MAIN.19::E9B
+Node: MAIN.20
+      FD Brick[MAIN]::E87
+      MAIN.20::E9C
+Node: MAIN.21
+      FD Brick[MAIN]::E87
+      MAIN.21::E9D
+Node: MAIN.22
+      FD Brick[MAIN]::E87
+      MAIN.22::E9E
+Node: MAIN.23
+      FD Brick[MAIN]::E87
+      MAIN.23::E9F
+Node: MAIN.24
+      FD Brick[MAIN]::E87
+      MAIN.24::EA0
+Node: MAIN.25
+      FD Brick[MAIN]::E87
+      MAIN.25::EA1
+Node: MAIN.26
+      FD Brick[MAIN]::E87
+      MAIN.26::EA2
+Node: MAIN.27
+      FD Brick[MAIN]::E87
+      MAIN.27::EA3
+Node: MAIN.28
+      MAIN.28::A9D
+      Rect-+X [MAIN]::41C
+Node: MAIN.29
+      MAIN.29::A9E
+      Rect-+X [MAIN]::41C
+Node: MAIN.30
+      MAIN.30::A9F
+      Rect-+X [MAIN]::41C
+Node: MAIN.31
+      MAIN.31::AA0
+      Rect-+X [MAIN]::41C
+Node: MAIN.32
+      MAIN.32::AA1
+      Rect-+X [MAIN]::41C
+Node: MAIN.49
+      MAIN.49::AA2
+      Rect--Y[MAIN]::274
+Node: MAIN.50
+      MAIN.50::DCF
+      Rect--Z [MAIN]::2C3
+Node: MAIN.51
+      MAIN.51::DDF
+      Rect-+Z[MAIN]::326
+Node: MAIN.52
+      MAIN.52::AE2
+      Rect-+Y [MAIN]::357
+Node: MAIN.53
+      MAIN.53::AC2
+      Rect--X [MAIN]::3EA
+Node: MAIN.54
+      MAIN.54::AAB
+      Rect--Y[MAIN]::274
+Node: MAIN.55
+      MAIN.55::DD8
+      Rect--Z [MAIN]::2C3
+Node: MAIN.56
+      MAIN.56::DE8
+      Rect-+Z[MAIN]::326
+Node: MAIN.57
+      MAIN.57::AEB
+      Rect-+Y [MAIN]::357
+Node: MAIN.58
+      MAIN.58::ACB
+      Rect--X [MAIN]::3EA
+Node: MAIN.59
+      MAIN.59::AAC
+      Rect--Y[MAIN]::274
+Node: MAIN.60
+      MAIN.60::DD9
+      Rect--Z [MAIN]::2C3
+Node: MAIN.61
+      MAIN.61::DE9
+      Rect-+Z[MAIN]::326
+Node: MAIN.62
+      MAIN.62::AEC
+      Rect-+Y [MAIN]::357
+Node: MAIN.63
+      MAIN.63::ACC
+      Rect--X [MAIN]::3EA
+Node: MAIN.64
+      MAIN.64::AAD
+      Rect--Y[MAIN]::274
+Node: MAIN.65
+      MAIN.65::DDA
+      Rect--Z [MAIN]::2C3
+Node: MAIN.66
+      MAIN.66::DEA
+      Rect-+Z[MAIN]::326
+Node: MAIN.67
+      MAIN.67::DDC
+      Rect--Z [MAIN]::2C3
+Node: MAIN.68
+      MAIN.68::DDD
+      Rect--Z [MAIN]::2C3
+Node: MAIN.69
+      MAIN.69::DDE
+      Rect--Z [MAIN]::2C3
+Node: MAIN.71
+      MAIN.71::DEB
+      Rect-+Z[MAIN]::326
+Node: MAIN.72
+      MAIN.72::AEE
+      Rect-+Y [MAIN]::357
+Node: MAIN.73
+      MAIN.73::ACE
+      Rect--X [MAIN]::3EA
+Node: MAIN.74
+      MAIN.74::AAF
+      Rect--Y[MAIN]::274
+Node: MAIN.76
+      MAIN.76::DEC
+      Rect-+Z[MAIN]::326
+Node: MAIN.77
+      MAIN.77::AEF
+      Rect-+Y [MAIN]::357
+Node: MAIN.78
+      MAIN.78::ACF
+      Rect--X [MAIN]::3EA
+Node: MAIN.79
+      MAIN.79::AB0
+      Rect--Y[MAIN]::274
+Node: MAIN.81
+      MAIN.81::DED
+      Rect-+Z[MAIN]::326
+Node: MAIN.82
+      MAIN.82::AF0
+      Rect-+Y [MAIN]::357
+Node: MAIN.83
+      MAIN.83::AD0
+      Rect--X [MAIN]::3EA
+Node: MAIN.84
+      MAIN.84::AB1
+      Rect--Y[MAIN]::274
+Node: MAIN.86
+      MAIN.86::DEE
+      Rect-+Z[MAIN]::326
+Node: MAIN.87
+      MAIN.87::AF1
+      Rect-+Y [MAIN]::357
+Node: MAIN.88
+      MAIN.88::AD1
+      Rect--X [MAIN]::3EA
+Node: MAIN.89
+      MAIN.89::AB2
+      Rect--Y[MAIN]::274
+Node: MAIN.92
+      MAIN.92::AF2
+      Rect-+Y [MAIN]::357
+Node: MAIN.93
+      MAIN.93::AD2
+      Rect--X [MAIN]::3EA
+Node: MAIN.94
+      MAIN.94::AB3
+      Rect--Y[MAIN]::274
+Node: MAIN.97
+      MAIN.97::AF3
+      Rect-+Y [MAIN]::357
+Node: MAIN.98
+      MAIN.98::AD3
+      Rect--X [MAIN]::3EA
+Node: MAIN.99
+      MAIN.99::AB4
+      Rect--Y[MAIN]::274
+Node: MAIN.102
+      MAIN.102::AF4
+      Rect-+Y [MAIN]::357
+Node: MAIN.103
+      MAIN.103::AD4
+      Rect--X [MAIN]::3EA
+Node: MAIN.104
+      MAIN.104::AA3
+      Rect--Y[MAIN]::274
+Node: MAIN.105
+      MAIN.105::DD0
+      Rect--Z [MAIN]::2C3
+Node: MAIN.106
+      MAIN.106::DE0
+      Rect-+Z[MAIN]::326
+Node: MAIN.107
+      MAIN.107::AE3
+      Rect-+Y [MAIN]::357
+Node: MAIN.108
+      MAIN.108::AC3
+      Rect--X [MAIN]::3EA
+Node: MAIN.109
+      MAIN.109::AB5
+      Rect--Y[MAIN]::274
+Node: MAIN.112
+      MAIN.112::AF5
+      Rect-+Y [MAIN]::357
+Node: MAIN.113
+      MAIN.113::AD5
+      Rect--X [MAIN]::3EA
+Node: MAIN.114
+      MAIN.114::AB6
+      Rect--Y[MAIN]::274
+Node: MAIN.117
+      MAIN.117::AF6
+      Rect-+Y [MAIN]::357
+Node: MAIN.118
+      MAIN.118::AD6
+      Rect--X [MAIN]::3EA
+Node: MAIN.119
+      MAIN.119::AB7
+      Rect--Y[MAIN]::274
+Node: MAIN.122
+      MAIN.122::AF7
+      Rect-+Y [MAIN]::357
+Node: MAIN.123
+      MAIN.123::AD7
+      Rect--X [MAIN]::3EA
+Node: MAIN.124
+      MAIN.124::AB8
+      Rect--Y[MAIN]::274
+Node: MAIN.127
+      MAIN.127::AF8
+      Rect-+Y [MAIN]::357
+Node: MAIN.128
+      MAIN.128::AD8
+      Rect--X [MAIN]::3EA
+Node: MAIN.129
+      MAIN.129::AB9
+      Rect--Y[MAIN]::274
+Node: MAIN.132
+      MAIN.132::AF9
+      Rect-+Y [MAIN]::357
+Node: MAIN.133
+      MAIN.133::AD9
+      Rect--X [MAIN]::3EA
+Node: MAIN.134
+      MAIN.134::ABA
+      Rect--Y[MAIN]::274
+Node: MAIN.137
+      MAIN.137::AFA
+      Rect-+Y [MAIN]::357
+Node: MAIN.138
+      MAIN.138::ADA
+      Rect--X [MAIN]::3EA
+Node: MAIN.139
+      MAIN.139::ABB
+      Rect--Y[MAIN]::274
+Node: MAIN.142
+      MAIN.142::AFB
+      Rect-+Y [MAIN]::357
+Node: MAIN.143
+      MAIN.143::ADB
+      Rect--X [MAIN]::3EA
+Node: MAIN.144
+      MAIN.144::ABC
+      Rect--Y[MAIN]::274
+Node: MAIN.147
+      MAIN.147::AFC
+      Rect-+Y [MAIN]::357
+Node: MAIN.148
+      MAIN.148::ADC
+      Rect--X [MAIN]::3EA
+Node: MAIN.149
+      MAIN.149::ABD
+      Rect--Y[MAIN]::274
+Node: MAIN.152
+      MAIN.152::AFD
+      Rect-+Y [MAIN]::357
+Node: MAIN.153
+      MAIN.153::ADD
+      Rect--X [MAIN]::3EA
+Node: MAIN.154
+      MAIN.154::ABE
+      Rect--Y[MAIN]::274
+Node: MAIN.157
+      MAIN.157::AFE
+      Rect-+Y [MAIN]::357
+Node: MAIN.158
+      MAIN.158::ADE
+      Rect--X [MAIN]::3EA
+Node: MAIN.159
+      MAIN.159::AA4
+      Rect--Y[MAIN]::274
+Node: MAIN.160
+      MAIN.160::DD1
+      Rect--Z [MAIN]::2C3
+Node: MAIN.161
+      MAIN.161::DE1
+      Rect-+Z[MAIN]::326
+Node: MAIN.162
+      MAIN.162::AE4
+      Rect-+Y [MAIN]::357
+Node: MAIN.163
+      MAIN.163::AC4
+      Rect--X [MAIN]::3EA
+Node: MAIN.164
+      MAIN.164::ABF
+      Rect--Y[MAIN]::274
+Node: MAIN.167
+      MAIN.167::AFF
+      Rect-+Y [MAIN]::357
+Node: MAIN.168
+      MAIN.168::ADF
+      Rect--X [MAIN]::3EA
+Node: MAIN.169
+      MAIN.169::AC0
+      Rect--Y[MAIN]::274
+Node: MAIN.172
+      MAIN.172::B00
+      Rect-+Y [MAIN]::357
+Node: MAIN.173
+      MAIN.173::AE0
+      Rect--X [MAIN]::3EA
+Node: MAIN.174
+      MAIN.174::AC1
+      Rect--Y[MAIN]::274
+Node: MAIN.177
+      MAIN.177::B01
+      Rect-+Y [MAIN]::357
+Node: MAIN.178
+      MAIN.178::AE1
+      Rect--X [MAIN]::3EA
+Node: MAIN.214
+      MAIN.214::AA5
+      Rect--Y[MAIN]::274
+Node: MAIN.215
+      MAIN.215::DD2
+      Rect--Z [MAIN]::2C3
+Node: MAIN.216
+      MAIN.216::DE2
+      Rect-+Z[MAIN]::326
+Node: MAIN.217
+      MAIN.217::AE5
+      Rect-+Y [MAIN]::357
+Node: MAIN.218
+      MAIN.218::AC5
+      Rect--X [MAIN]::3EA
+Node: MAIN.264
+      MAIN.264::AA6
+      Rect--Y[MAIN]::274
+Node: MAIN.265
+      MAIN.265::DD3
+      Rect--Z [MAIN]::2C3
+Node: MAIN.266
+      MAIN.266::DE3
+      Rect-+Z[MAIN]::326
+Node: MAIN.267
+      MAIN.267::AE6
+      Rect-+Y [MAIN]::357
+Node: MAIN.268
+      MAIN.268::AC6
+      Rect--X [MAIN]::3EA
+Node: MAIN.269
+      MAIN.269::AA7
+      Rect--Y[MAIN]::274
+Node: MAIN.270
+      MAIN.270::DD4
+      Rect--Z [MAIN]::2C3
+Node: MAIN.271
+      MAIN.271::DE4
+      Rect-+Z[MAIN]::326
+Node: MAIN.272
+      MAIN.272::AE7
+      Rect-+Y [MAIN]::357
+Node: MAIN.273
+      MAIN.273::AC7
+      Rect--X [MAIN]::3EA
+Node: MAIN.274
+      MAIN.274::AA8
+      Rect--Y[MAIN]::274
+Node: MAIN.275
+      MAIN.275::DD5
+      Rect--Z [MAIN]::2C3
+Node: MAIN.276
+      MAIN.276::DE5
+      Rect-+Z[MAIN]::326
+Node: MAIN.277
+      MAIN.277::AE8
+      Rect-+Y [MAIN]::357
+Node: MAIN.278
+      MAIN.278::AC8
+      Rect--X [MAIN]::3EA
+Node: MAIN.279
+      MAIN.279::AA9
+      Rect--Y[MAIN]::274
+Node: MAIN.280
+      MAIN.280::DD6
+      Rect--Z [MAIN]::2C3
+Node: MAIN.281
+      MAIN.281::DE6
+      Rect-+Z[MAIN]::326
+Node: MAIN.282
+      MAIN.282::AE9
+      Rect-+Y [MAIN]::357
+Node: MAIN.283
+      MAIN.283::AC9
+      Rect--X [MAIN]::3EA
+Node: MAIN.284
+      MAIN.284::AAA
+      Rect--Y[MAIN]::274
+Node: MAIN.285
+      MAIN.285::DD7
+      Rect--Z [MAIN]::2C3
+Node: MAIN.286
+      MAIN.286::DE7
+      Rect-+Z[MAIN]::326
+Node: MAIN.287
+      MAIN.287::AEA
+      Rect-+Y [MAIN]::357
+Node: MAIN.288
+      MAIN.288::ACA
+      Rect--X [MAIN]::3EA
+Node: MAIN.289
+      MAIN.289::A82
+      Rect-+X [MAIN]::41C
+Node: MAIN.291
+      MAIN.291::A8B
+      Rect-+X [MAIN]::41C
+Node: MAIN.292
+      MAIN.292::A8C
+      Rect-+X [MAIN]::41C
+Node: MAIN.293
+      MAIN.293::A8D
+      Rect-+X [MAIN]::41C
+Node: MAIN.294
+      MAIN.294::A8E
+      Rect-+X [MAIN]::41C
+Node: MAIN.295
+      MAIN.295::A8F
+      Rect-+X [MAIN]::41C
+Node: MAIN.296
+      MAIN.296::A90
+      Rect-+X [MAIN]::41C
+Node: MAIN.297
+      MAIN.297::A91
+      Rect-+X [MAIN]::41C
+Node: MAIN.298
+      MAIN.298::A92
+      Rect-+X [MAIN]::41C
+Node: MAIN.299
+      MAIN.299::A93
+      Rect-+X [MAIN]::41C
+Node: MAIN.300
+      MAIN.300::A94
+      Rect-+X [MAIN]::41C
+Node: MAIN.301
+      MAIN.301::A83
+      Rect-+X [MAIN]::41C
+Node: MAIN.302
+      MAIN.302::A95
+      Rect-+X [MAIN]::41C
+Node: MAIN.303
+      MAIN.303::A96
+      Rect-+X [MAIN]::41C
+Node: MAIN.304
+      MAIN.304::A97
+      Rect-+X [MAIN]::41C
+Node: MAIN.305
+      MAIN.305::A98
+      Rect-+X [MAIN]::41C
+Node: MAIN.306
+      MAIN.306::A99
+      Rect-+X [MAIN]::41C
+Node: MAIN.307
+      MAIN.307::A9A
+      Rect-+X [MAIN]::41C
+Node: MAIN.308
+      MAIN.308::A84
+      Rect-+X [MAIN]::41C
+Node: MAIN.309
+      MAIN.309::A85
+      Rect-+X [MAIN]::41C
+Node: MAIN.310
+      MAIN.310::A86
+      Rect-+X [MAIN]::41C
+Node: MAIN.311
+      MAIN.311::A87
+      Rect-+X [MAIN]::41C
+Node: MAIN.312
+      MAIN.312::A88
+      Rect-+X [MAIN]::41C
+Node: MAIN.313
+      MAIN.313::A89
+      Rect-+X [MAIN]::41C
+Node: MAIN.314
+      MAIN.314::A8A
+      Rect-+X [MAIN]::41C
+Node: MAIN.315
+      MAIN.315::B07
+      Rect-+X Solar PCB[MAIN]::B05
+Node: MAIN.319
+      MAIN.319::B08
+      Rect-+X Solar PCB[MAIN]::B05
+Node: MAIN.320
+      MAIN.320::B09
+      Rect-+X Solar PCB[MAIN]::B05
+Node: MAIN.321
+      MAIN.321::B0A
+      Rect-+X Solar PCB[MAIN]::B05
+Node: MAIN.322
+      MAIN.322::B0B
+      Rect-+X Solar PCB[MAIN]::B05
+Node: MAIN.323
+      MAIN.323::B0C
+      Rect-+X Solar PCB[MAIN]::B05
+Node: MAIN.324
+      MAIN.324::B0D
+      Rect-+X Solar PCB[MAIN]::B05
+Node: MAIN.325
+      MAIN.325::B0E
+      Rect-+X Solar PCB[MAIN]::B05
+Node: MAIN.326
+      MAIN.326::DDB
+      Rect--Z [MAIN]::2C3
+Node: MAIN.327
+      MAIN.327::AED
+      Rect-+Y [MAIN]::357
+Node: MAIN.328
+      MAIN.328::ACD
+      Rect--X [MAIN]::3EA
+Node: MAIN.329
+      MAIN.329::AAE
+      Rect--Y[MAIN]::274
+Node: MAIN.330
+      MAIN.330::D34
+      Rect-+Y Solar PCB[MAIN]::D32
+Node: MAIN.331
+      MAIN.331::E08
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.332
+      MAIN.332::E11
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.333
+      MAIN.333::E12
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.334
+      MAIN.334::E13
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.335
+      MAIN.335::E14
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.336
+      MAIN.336::E15
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.337
+      MAIN.337::E16
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.338
+      MAIN.338::E17
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.339
+      MAIN.339::D35
+      Rect-+Y Solar PCB[MAIN]::D32
+Node: MAIN.340
+      MAIN.340::E09
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.341
+      MAIN.341::D36
+      Rect-+Y Solar PCB[MAIN]::D32
+Node: MAIN.342
+      MAIN.342::E0A
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.343
+      MAIN.343::D37
+      Rect-+Y Solar PCB[MAIN]::D32
+Node: MAIN.344
+      MAIN.344::E0B
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.345
+      MAIN.345::D38
+      Rect-+Y Solar PCB[MAIN]::D32
+Node: MAIN.346
+      MAIN.346::E0C
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.347
+      MAIN.347::D39
+      Rect-+Y Solar PCB[MAIN]::D32
+Node: MAIN.348
+      MAIN.348::E0D
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.349
+      MAIN.349::D3A
+      Rect-+Y Solar PCB[MAIN]::D32
+Node: MAIN.350
+      MAIN.350::E0E
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.351
+      MAIN.351::D3B
+      Rect-+Y Solar PCB[MAIN]::D32
+Node: MAIN.352
+      MAIN.352::E0F
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.353
+      MAIN.353::E10
+      Rect-PDS Board[MAIN]::E06
+Node: MAIN.354
+      MAIN.354::E58
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.355
+      MAIN.355::E61
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.356
+      MAIN.356::E62
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.357
+      MAIN.357::E63
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.358
+      MAIN.358::E64
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.359
+      MAIN.359::E65
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.360
+      MAIN.360::E66
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.361
+      MAIN.361::E67
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.362
+      MAIN.362::E59
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.363
+      MAIN.363::A9B
+      Rect-+X [MAIN]::41C
+Node: MAIN.364
+      MAIN.364::A9C
+      Rect-+X [MAIN]::41C
+Node: MAIN.365
+      MAIN.365::E5A
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.366
+      MAIN.366::E5B
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.367
+      MAIN.367::E5C
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.368
+      MAIN.368::E5D
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.369
+      MAIN.369::E5E
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.370
+      MAIN.370::E5F
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.371
+      MAIN.371::E60
+      Rect-BMS Board[MAIN]::E56
+Node: MAIN.372
+      FD Brick[MAIN]::E87
+      MAIN.372::E89
+Node: MAIN.373
+      Disk-Patch Antenna -Z[MAIN]::EB3
+      MAIN.373::EB5
+Node: MAIN.374
+      FD Brick[MAIN]::E87
+      MAIN.374::E8A
+Node: MAIN.375
+      Disk-Patch Antenna -Z[MAIN]::EB3
+      MAIN.375::EB6
+Node: MAIN.376
+      FD Brick[MAIN]::E87
+      MAIN.376::E8B
+Node: MAIN.377
+      Disk-Patch Antenna -Z[MAIN]::EB3
+      MAIN.377::EB7
+Node: MAIN.378
+      FD Brick[MAIN]::E87
+      MAIN.378::E8C
+Node: MAIN.379
+      Disk-Patch Antenna -Z[MAIN]::EB3
+      MAIN.379::EB8
+Node: MAIN.380
+      FD Brick[MAIN]::E87
+      MAIN.380::E8D
+Node: MAIN.381
+      Disk-Patch Antenna -Z[MAIN]::EB3
+      MAIN.381::EB9
+Node: MAIN.382
+      FD Brick[MAIN]::E87
+      MAIN.382::E8E
+Node: MAIN.383
+      Disk-Patch Antenna -Z[MAIN]::EB3
+      MAIN.383::EBA
+Node: MAIN.384
+      FD Brick[MAIN]::E87
+      MAIN.384::E8F
+Node: MAIN.385
+      Disk-Patch Antenna -Z[MAIN]::EB3
+      MAIN.385::EBB
+Node: MAIN.386
+      FD Brick[MAIN]::E87
+      MAIN.386::E90
+Node: MAIN.387
+      Disk-Patch Antenna -Z[MAIN]::EB3
+      MAIN.387::EBC
+Node: SPACE.1
+      MAIN.289::A82
+Conductor: MAIN.1
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.2
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.3
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.4
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.5
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.6
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.7
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.8
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.9
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.10
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.11
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.12
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.13
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.14
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.15
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.16
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.17
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.18
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.19
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.20
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.21
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.22
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.23
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.24
+      Disk-+Z Patch Antenna[MAIN]::EBD
+Conductor: MAIN.25
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.26
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.27
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.28
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.29
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.30
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.31
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.32
+      Face Contactor-+Z Patch Antenna to +Z Face[MAIN][0]::ECA
+      Face Contactor-+Z Surface to +Z Patch Antenna [MAIN][0]::EC7
+Conductor: MAIN.33
+      FD Brick[MAIN]::E87
+Conductor: MAIN.34
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.35
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.36
+      FD Brick[MAIN]::E87
+Conductor: MAIN.37
+      FD Brick[MAIN]::E87
+Conductor: MAIN.38
+      FD Brick[MAIN]::E87
+Conductor: MAIN.39
+      FD Brick[MAIN]::E87
+Conductor: MAIN.40
+      FD Brick[MAIN]::E87
+Conductor: MAIN.41
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.42
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.43
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.44
+      FD Brick[MAIN]::E87
+Conductor: MAIN.45
+      FD Brick[MAIN]::E87
+Conductor: MAIN.46
+      FD Brick[MAIN]::E87
+Conductor: MAIN.47
+      FD Brick[MAIN]::E87
+Conductor: MAIN.48
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.49
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.50
+      FD Brick[MAIN]::E87
+Conductor: MAIN.51
+      FD Brick[MAIN]::E87
+Conductor: MAIN.52
+      FD Brick[MAIN]::E87
+Conductor: MAIN.53
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.54
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.55
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.56
+      FD Brick[MAIN]::E87
+Conductor: MAIN.57
+      FD Brick[MAIN]::E87
+Conductor: MAIN.58
+      FD Brick[MAIN]::E87
+Conductor: MAIN.59
+      FD Brick[MAIN]::E87
+Conductor: MAIN.60
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.61
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.62
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.63
+      FD Brick[MAIN]::E87
+Conductor: MAIN.64
+      FD Brick[MAIN]::E87
+Conductor: MAIN.65
+      FD Brick[MAIN]::E87
+Conductor: MAIN.66
+      FD Brick[MAIN]::E87
+Conductor: MAIN.67
+      FD Brick[MAIN]::E87
+Conductor: MAIN.68
+      FD Brick[MAIN]::E87
+Conductor: MAIN.69
+      FD Brick[MAIN]::E87
+Conductor: MAIN.70
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.71
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.72
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.73
+      FD Brick[MAIN]::E87
+Conductor: MAIN.74
+      FD Brick[MAIN]::E87
+Conductor: MAIN.75
+      FD Brick[MAIN]::E87
+Conductor: MAIN.76
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.77
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.78
+      FD Brick[MAIN]::E87
+Conductor: MAIN.79
+      FD Brick[MAIN]::E87
+Conductor: MAIN.80
+      FD Brick[MAIN]::E87
+Conductor: MAIN.81
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.82
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.83
+      FD Brick[MAIN]::E87
+Conductor: MAIN.84
+      FD Brick[MAIN]::E87
+Conductor: MAIN.85
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.86
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.87
+      FD Brick[MAIN]::E87
+Conductor: MAIN.88
+      FD Brick[MAIN]::E87
+Conductor: MAIN.89
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.90
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.91
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.92
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.93
+      FD Brick[MAIN]::E87
+Conductor: MAIN.94
+      FD Brick[MAIN]::E87
+Conductor: MAIN.95
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.96
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.97
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.98
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.99
+      FD Brick[MAIN]::E87
+Conductor: MAIN.100
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.101
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.102
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.103
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.104
+      FD Brick[MAIN]::E87
+Conductor: MAIN.105
+      FD Brick[MAIN]::E87
+Conductor: MAIN.106
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.107
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.108
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.109
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.110
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.111
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.112
+      FD Brick[MAIN]::E87
+Conductor: MAIN.113
+      FD Brick[MAIN]::E87
+Conductor: MAIN.114
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.115
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.116
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.117
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.118
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.119
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.120
+      FD Brick[MAIN]::E87
+Conductor: MAIN.121
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.122
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.123
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.124
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.125
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.126
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.127
+      FD Brick[MAIN]::E87
+Conductor: MAIN.128
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.129
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.130
+      FD Brick[MAIN]::E87
+Conductor: MAIN.131
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.132
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.133
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.134
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.135
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.136
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.137
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.138
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.139
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.140
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.141
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.142
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.143
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.144
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.145
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.146
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.147
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.148
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.149
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.150
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.151
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.152
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.153
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.154
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.155
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.156
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.157
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.158
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.159
+      Rect--Y[MAIN]::274
+Conductor: MAIN.160
+      Rect--Y[MAIN]::274
+Conductor: MAIN.161
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.162
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.163
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.164
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.165
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.166
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.167
+      Cond[MAIN]::E6A
+Conductor: MAIN.168
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.169
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.170
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.171
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.172
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.173
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.174
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.175
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.176
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.177
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.178
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.179
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.180
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.181
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.182
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.183
+      Rect--Y[MAIN]::274
+Conductor: MAIN.184
+      Rect--Y[MAIN]::274
+Conductor: MAIN.185
+      Rect--Y[MAIN]::274
+Conductor: MAIN.186
+      Rect--Y[MAIN]::274
+Conductor: MAIN.187
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.188
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.189
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.190
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.191
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.192
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.193
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.194
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.195
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.196
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.197
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.198
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.199
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.200
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.201
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.202
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.203
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.204
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.205
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.206
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.207
+      Rect--Y[MAIN]::274
+Conductor: MAIN.208
+      Rect--Y[MAIN]::274
+Conductor: MAIN.209
+      Rect--Y[MAIN]::274
+Conductor: MAIN.210
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.211
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.212
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.213
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.214
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.215
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.216
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.217
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.218
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.219
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.220
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.221
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.222
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.223
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.224
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.225
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.226
+      Rect--Y[MAIN]::274
+Conductor: MAIN.227
+      Rect--Y[MAIN]::274
+Conductor: MAIN.228
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.229
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.230
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.231
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.232
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.233
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.234
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.235
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.236
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.237
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.238
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.239
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.240
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.241
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.242
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.243
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.244
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.245
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.246
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.247
+      Cond[MAIN]::E69
+Conductor: MAIN.248
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.249
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.250
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.251
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.252
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.253
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.254
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.255
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.256
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.257
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.258
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.259
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.260
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.261
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.262
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.263
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.264
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.265
+      Rect--Y[MAIN]::274
+Conductor: MAIN.266
+      Rect--Y[MAIN]::274
+Conductor: MAIN.267
+      Rect--Y[MAIN]::274
+Conductor: MAIN.268
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.269
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.270
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.271
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.272
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.273
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.274
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.275
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.276
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.277
+      Rect--Y[MAIN]::274
+Conductor: MAIN.278
+      Rect--Y[MAIN]::274
+Conductor: MAIN.279
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.280
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.281
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.282
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.283
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.284
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.285
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.286
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.287
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.288
+      Rect--Y[MAIN]::274
+Conductor: MAIN.289
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.290
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.291
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.292
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.293
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.294
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.295
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.296
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.297
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.298
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.299
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.300
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.301
+      Rect--Y[MAIN]::274
+Conductor: MAIN.302
+      Rect--Y[MAIN]::274
+Conductor: MAIN.303
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.304
+      Rect--Y[MAIN]::274
+Conductor: MAIN.305
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.306
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.307
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.308
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.309
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.310
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.311
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.312
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.313
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.314
+      Rect--Y[MAIN]::274
+Conductor: MAIN.315
+      Rect--Y[MAIN]::274
+Conductor: MAIN.316
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.317
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.318
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.319
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.320
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.321
+      Rect--Y[MAIN]::274
+Conductor: MAIN.322
+      Rect--Y[MAIN]::274
+Conductor: MAIN.323
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.324
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.325
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.326
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.327
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.328
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.329
+      Rect--Y[MAIN]::274
+Conductor: MAIN.330
+      Rect--Y[MAIN]::274
+Conductor: MAIN.331
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.332
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.333
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.334
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.335
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.336
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.337
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.338
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.339
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.340
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.341
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.342
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.343
+      Rect--Y[MAIN]::274
+Conductor: MAIN.344
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.345
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.346
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.347
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.348
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.349
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.350
+      Rect--Y[MAIN]::274
+Conductor: MAIN.351
+      Rect--Y[MAIN]::274
+Conductor: MAIN.352
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.353
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.354
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.355
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.356
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.357
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.358
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.359
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.360
+      Rect--Y[MAIN]::274
+Conductor: MAIN.361
+      Rect--Y[MAIN]::274
+Conductor: MAIN.362
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.363
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.364
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.365
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.366
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.367
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.368
+      Rect--Y[MAIN]::274
+Conductor: MAIN.369
+      Rect--Y[MAIN]::274
+Conductor: MAIN.370
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.371
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.372
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.373
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.374
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.375
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.376
+      Rect--Y[MAIN]::274
+Conductor: MAIN.377
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.378
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.379
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.380
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.381
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.382
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.383
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.384
+      Rect--Y[MAIN]::274
+Conductor: MAIN.385
+      Rect--Y[MAIN]::274
+Conductor: MAIN.386
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.387
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.388
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.389
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.390
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.391
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.392
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.393
+      Rect--Y[MAIN]::274
+Conductor: MAIN.394
+      Rect--Y[MAIN]::274
+Conductor: MAIN.395
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.396
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.397
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.398
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.399
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.400
+      Rect--Y[MAIN]::274
+Conductor: MAIN.401
+      Rect--Y[MAIN]::274
+Conductor: MAIN.402
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.403
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.404
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.405
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.406
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.407
+      Rect--Y[MAIN]::274
+Conductor: MAIN.408
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.409
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.410
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.411
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.412
+      Rect--Y[MAIN]::274
+Conductor: MAIN.413
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.414
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.415
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.416
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.417
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.418
+      Rect--Y[MAIN]::274
+Conductor: MAIN.419
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.420
+      Rect--Y[MAIN]::274
+Conductor: MAIN.421
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.422
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.423
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.424
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.425
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.426
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.427
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.428
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.429
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.430
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.431
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.432
+      Rect--Y[MAIN]::274
+Conductor: MAIN.433
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.434
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.435
+      Rect--Y[MAIN]::274
+Conductor: MAIN.436
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.437
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.438
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.439
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.440
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.441
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.442
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.443
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.444
+      Rect--Y[MAIN]::274
+Conductor: MAIN.445
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.446
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.447
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.448
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.449
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.450
+      Cond[MAIN]::E68
+Conductor: MAIN.451
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.452
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.453
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.454
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.455
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.456
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.457
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.458
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.459
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.460
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.461
+      Edge Contactor--X Face Edge Contactors [MAIN][0]::D5E
+Conductor: MAIN.462
+      Rect--Y[MAIN]::274
+Conductor: MAIN.463
+      Rect--Y[MAIN]::274
+Conductor: MAIN.464
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.465
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.466
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.467
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.468
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.469
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.470
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.471
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.472
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.473
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.474
+      Rect--Y[MAIN]::274
+Conductor: MAIN.475
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.476
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.477
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.478
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.479
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.480
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.481
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.482
+      Rect--Y[MAIN]::274
+Conductor: MAIN.483
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.484
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.485
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.486
+      Rect-+Z[MAIN]::326
+Conductor: MAIN.487
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.488
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.489
+      Rect--X [MAIN]::3EA
+Conductor: MAIN.490
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.491
+      Edge Contactor--Z Face Edge Contactors[MAIN][1]::D5B
+Conductor: MAIN.492
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.493
+      Edge Contactor-+Z Face Edge Contactors[MAIN][0]::D5C
+Conductor: MAIN.494
+      Rect-+Y [MAIN]::357
+Conductor: MAIN.495
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.496
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.497
+      Rect--Y[MAIN]::274
+Conductor: MAIN.498
+      Rect--Z [MAIN]::2C3
+Conductor: MAIN.499
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.500
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.501
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.502
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.503
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.504
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.505
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.506
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.507
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.508
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.509
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.510
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.511
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.512
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.513
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.514
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.515
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.516
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.517
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.518
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.519
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.520
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.521
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.522
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.523
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.524
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.525
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.526
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.527
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.528
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.529
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.530
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.531
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.532
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.533
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.534
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.535
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.536
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.537
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.538
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.539
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.540
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.541
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.542
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.543
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.544
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.545
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.546
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.547
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.548
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.549
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.550
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.551
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.552
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.553
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.554
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.555
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.556
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.557
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.558
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.559
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.560
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.561
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.562
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.563
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.564
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.565
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.566
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.567
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.568
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.569
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.570
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.571
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.572
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.573
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.574
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.575
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.576
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.577
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.578
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.579
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.580
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.581
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.582
+      Face Contactor-+X Face +X Solar PCB Face Contactor[MAIN][0]::D5F
+Conductor: MAIN.583
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.584
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.585
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.586
+      Rect-+X Solar PCB[MAIN]::B05
+Conductor: MAIN.587
+      Cond[MAIN]::E6B
+Conductor: MAIN.588
+      Face Contactor--Z Face to -Z Patch Antenna[MAIN][0]::EC8
+      Face Contactor--Z Patch Antenna to -Z Face[MAIN][0]::EC9
+Conductor: MAIN.589
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.590
+      Face Contactor-+Z Face +Z Solar PCB Face Contactor[MAIN][1]::D61
+Conductor: MAIN.591
+      Edge Contactor-+X Face Edge Contactors[MAIN][0]::D5D
+Conductor: MAIN.592
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.593
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.594
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.595
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.596
+      Cond[MAIN]::E6F
+Conductor: MAIN.597
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.598
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.599
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.600
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.601
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.602
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.603
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.604
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.605
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.606
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.607
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.608
+      Cond[MAIN]::E6E
+Conductor: MAIN.609
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.610
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.611
+      Cond[MAIN]::E6D
+Conductor: MAIN.612
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.613
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.614
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.615
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.616
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.617
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.618
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.619
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.620
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.621
+      Cond[MAIN]::E6C
+Conductor: MAIN.622
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.623
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.624
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.625
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.626
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.627
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.628
+      Rect-+Y Solar PCB[MAIN]::D32
+Conductor: MAIN.629
+      Rect-PDS Board[MAIN]::E06
+Conductor: MAIN.630
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.631
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.632
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.633
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.634
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.635
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.636
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.637
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.638
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.639
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.640
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.641
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.642
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.643
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.644
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.645
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.646
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.647
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.648
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.649
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.650
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.651
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.652
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.653
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.654
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.655
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.656
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.657
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.658
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.659
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.660
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.661
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.662
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.663
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.664
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.665
+      Rect-+X [MAIN]::41C
+Conductor: MAIN.666
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.667
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.668
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.669
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.670
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.671
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.672
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.673
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.674
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.675
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.676
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.677
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.678
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.679
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.680
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.681
+      Rect-BMS Board[MAIN]::E56
+Conductor: MAIN.682
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.683
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.684
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.685
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.686
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.687
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.688
+      Face Contactor[MAIN][0]::EA4
+Conductor: MAIN.689
+      FD Brick[MAIN]::E87
+Conductor: MAIN.690
+      FD Brick[MAIN]::E87
+Conductor: MAIN.691
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.692
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.693
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.694
+      FD Brick[MAIN]::E87
+Conductor: MAIN.695
+      FD Brick[MAIN]::E87
+Conductor: MAIN.696
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.697
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.698
+      FD Brick[MAIN]::E87
+Conductor: MAIN.699
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.700
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.701
+      FD Brick[MAIN]::E87
+Conductor: MAIN.702
+      FD Brick[MAIN]::E87
+Conductor: MAIN.703
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.704
+      FD Brick[MAIN]::E87
+Conductor: MAIN.705
+      FD Brick[MAIN]::E87
+Conductor: MAIN.706
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.707
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.708
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Conductor: MAIN.709
+      FD Brick[MAIN]::E87
+Conductor: MAIN.710
+      Disk-Patch Antenna -Z[MAIN]::EB3
+Heat Load: MAIN.9
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.10
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.11
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.12
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.13
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.14
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.15
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.16
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.17
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.18
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.19
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.20
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.21
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.22
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.23
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.24
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.25
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.26
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.27
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.372
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.374
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.376
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.378
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.380
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.382
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.384
+      Heat Load-Heat Load from Battery[MAIN]::EA5
+Heat Load: MAIN.386
+      Heat Load-Heat Load from Battery[MAIN]::EA5

@@ -1,0 +1,1364 @@
+
+
+                       S I N D A 
+
+
+
+                      Copyright 1996 - 2025 ANSYS Inc. All Rights Reserved.
+                      www.ansys.com/products/fluids/ansys-thermal-desktop
+
+
+
+
+             P R E P R O C E S S O R  E X E C U T I O N
+
+             VERSION ................... 2025 R2                                 
+             MODIFICATION DATE ......... Aug 27 2025                             
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     1
+
+ MODEL = SINDA          
+ OPTIONS DATA BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER OPTIONS                                                                       ROOT                            
+   INPUT               OUTPUT = Keplerian.out                                                           ROOT                            
+   INPUT               SAVE = Keplerian.sav                                                             ROOT                            
+   INPUT               MLINE = 100000 $ Limits headers output                                           ROOT                            
+   INPUT           TITLE 3U.dwg - Keplerian                                                             ROOT                            
+   INPUT           C    SINDA Data generated with Thermal Desktop 25.2 SP2                              ROOT                            
+   INPUT           C    Installed Sinda: Sinda 25.2 SP2                                                 ROOT                            
+   INPUT           C    Generated on Fri Jan 23 17:29:17 2026                                           ROOT                            
+   INPUT           C    From file: 3U.dwg                                                               ROOT                            
+   INPUT           C    Case Set: Keplerian                                                             ROOT                            
+   INPUT           C    TDUNITS,   Energy     = J                                                       ROOT                            
+   INPUT           C    TDUNITS,   Time       = s                                                       ROOT                            
+   INPUT           C    TDUNITS,   Temp       = K                                                       ROOT                            
+   INPUT           C    TDUNITS,   Mass       = kg                                                      ROOT                            
+   INPUT           C    TDUNITS,   Length     = m                                                       ROOT                            
+   INPUT           C    TDUNITS,   Orbit      = km                                                      ROOT                            
+   INPUT           C    TDUNITS,   Pressure   = Pa                                                      ROOT                            
+   INPUT           C    TDUNITS,   Force      = N                                                       ROOT                            
+   INPUT           C    TDUNITS,   Angle      = Degrees                                                 ROOT                            
+   INPUT           C    TDUNITS,   Volt       = volt                                                    ROOT                            
+   INPUT           C    TDUNITS,   Current    = amp                                                     ROOT                            
+   INPUT           C    DWG name:      3U.dwg                                                           ROOT                            
+   INPUT           C    Thermophysical Property Database: ..\..\Documents\TdThermo.tdp                  ROOT                            
+   INPUT           C    Optical Property Database:        ..\..\Documents\RcOptics.rco                  ROOT                            
+   INPUT           C    Computer name: HSLLAB                                                           ROOT                            
+   INPUT           C    Symbol Names, Evaluated values, Input Strings, Comments                         ROOT                            
+   INPUT           C    beta_angle           0.            0                                            ROOT                            
+   INPUT           C    hrBetaAngle          0.            0                                            ROOT                            
+   INPUT           C    hrEccen              0.            0                                            ROOT                            
+   INPUT           C    hrIllum              0.            0                                            ROOT                            
+   INPUT           C    hrMeanAnom           0.            0                                            ROOT                            
+   INPUT           C    hrPeriod             5676.98       5676.98              Always in current u     ROOT                            
+   INPUT           C    hrPeriodSec          5676.98       5676.98                                      ROOT                            
+   INPUT           C    hrPlanetX            -1.262180e-29 -1.26218e-29                                 ROOT                            
+   INPUT           C    hrPlanetY            0.            0                                            ROOT                            
+   INPUT           C    hrPlanetZ            -1.           -1                                           ROOT                            
+   INPUT           C    hrPos                0.            0                                            ROOT                            
+   INPUT           C    hrShadowEntry        111.9846      1.119845819092e+02                           ROOT                            
+   INPUT           C    hrShadowExit         248.0154      2.480154180909e+02                           ROOT                            
+   INPUT           C    hrSpeed              7.61261       7.61261                                      ROOT                            
+   INPUT           C    hrSubSolarMeanAnom   6.113030e-12  6.11303e-12          -180 to 180             ROOT                            
+   INPUT           C    hrSubSolarTrueAnom   6.113030e-12  6.11303e-12          -180 to 180             ROOT                            
+   INPUT           C    hrSunX               1.066924e-13  1.066924326665e-13                           ROOT                            
+   INPUT           C    hrSunY               0.            0                                            ROOT                            
+   INPUT           C    hrSunZ               1.            1                                            ROOT                            
+   INPUT           C    hrTime               0.            0                    Always in current u     ROOT                            
+   INPUT           C    hrTimeSec            0.            0                                            ROOT                            
+   INPUT           C    hrTimeShadowEntry    1765.928      1.765927779927e+03                           ROOT                            
+   INPUT           C    hrTimeShadowEntrySec 1765.928      1.765927779927e+03                           ROOT                            
+   INPUT           C    hrTimeShadowExit     3911.05       3911.05                                      ROOT                            
+   INPUT           C    hrTimeShadowExitSec  3911.05       3911.05                                      ROOT                            
+   INPUT           C    hrTrueAnom           0.            0                                            ROOT                            
+   INPUT           C    hrVelocityX          1.            1                                            ROOT                            
+   INPUT           C    hrVelocityY          0.            0                                            ROOT                            
+   INPUT           C    hrVelocityZ          -1.262180e-29 -1.26218e-29                                 ROOT                            
+   INPUT           C                                                                                    ROOT                            
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     2
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ MODEL NAME CHECK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+
+  LIST OF HEADER CARDS IN NODE DATA - CHECKING MODEL NAMES AGAINST BUILD CARDS
+
+HEADER NODE DATA, MAIN
+HEADER NODE DATA, SPACE
+HEADER NODE DATA, C3A1
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     3
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ MODEL NAME CHECK
+
+ SUMMARY OF REGISTER VALUES ---------------------- 
+
+ TD_THERMAL_TIME_STEP             =    0.0000    
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     4
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ CONSTANTS DATA BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER CONTROL DATA, GLOBAL                                                          GLOBAL                          
+   INPUT               ABSZRO = 0.                                                                      GLOBAL                          
+   INPUT               SIGMA  = 5.670400E-08                                                            GLOBAL                          
+   INPUT               NLOOPS  = 1000                                                                   GLOBAL                          
+   INPUT               NLOOPT  = 100                                                                    GLOBAL                          
+   INPUT               TIMEO  = 0.                                                                      GLOBAL                          
+   INPUT               TIMEND  = 5676.98                                                                GLOBAL                          
+   INPUT               DTIMES  = 0.                                                                     GLOBAL                          
+   INPUT               PATMOS  = 0.                                                                     GLOBAL                          
+   INPUT               ARLXCA  = 0.001                                                                  GLOBAL                          
+   INPUT               DRLXCA  = 0.001                                                                  GLOBAL                          
+   INPUT               EXTLIM  = 0.5                                                                    GLOBAL                          
+   INPUT               MATMET = 2 $ AUTODETERMINE SINGLE MATRIX                                         GLOBAL                          
+   INPUT               ITERXT = 3                                                                       GLOBAL                          
+   INPUT               EBALSA  = 0.01                                                                   GLOBAL                          
+   INPUT               EBALNA  = 0.                                                                     GLOBAL                          
+   INPUT               ITEROT  = (LOOPCT >= NLOOPS - 2 && LOOPCT != NLOOPS) ? 1 : 0                     GLOBAL                          
+   INPUT               ITHOLD  = 0                                                                      GLOBAL                          
+   INPUT               OUTPUT  = 0.                                                                     GLOBAL                          
+   INPUT               ATMPCA  = 1.000000E+30                                                           GLOBAL                          
+   INPUT               DTMPCA  = 50.                                                                    GLOBAL                          
+   INPUT               DTIMEI  = 0.                                                                     GLOBAL                          
+   INPUT               DTIMEL  = 0.                                                                     GLOBAL                          
+   INPUT               DTIMEH  = 1.000000E+30                                                           GLOBAL                          
+   INPUT               CSGFAC  = 1.                                                                     GLOBAL                          
+   INPUT               OPEITR  = 0                                                                      GLOBAL                          
+   INPUT               DTSIZF  = 0.1                                                                    GLOBAL                          
+   INPUT               DTTUBF  = 0.1                                                                    GLOBAL                          
+   INPUT               DTMAXF  = 1.000000E+30                                                           GLOBAL                          
+   INPUT               DTMINF  = 0.                                                                     GLOBAL                          
+   INPUT               OUTPTF = 0.                                                                      GLOBAL                          
+   INPUT               OPITRF  = 0                                                                      GLOBAL                          
+   INPUT               RERRF  = 0.01                                                                    GLOBAL                          
+   INPUT               REBALF  = 0.01                                                                   GLOBAL                          
+   INPUT               ITHLDF  = 0                                                                      GLOBAL                          
+   INPUT               ITROTF  = (LOOPCT >= NLOOPS - 2 && LOOPCT != NLOOPS) ? 1 : 0                     GLOBAL                          
+   INPUT               RSSIZF  = 0.5                                                                    GLOBAL                          
+   INPUT               RSTUBF  = 0.5                                                                    GLOBAL                          
+   INPUT               RSMAXF  = 3600.                                                                  GLOBAL                          
+   INPUT               FBEBALA  = 0.1                                                                   GLOBAL                          
+   INPUT               SPARSEG  = 0.0001                                                                GLOBAL                          
+   INPUT               FRAVER  = 0.                                                                     GLOBAL                          
+   INPUT               RMSPLT  = 0.1                                                                    GLOBAL                          
+   INPUT               RMFRAC  = 0.5                                                                    GLOBAL                          
+   INPUT               RMRATE  = 0.1                                                                    GLOBAL                          
+   INPUT               UID =    SI                                                                      GLOBAL                          
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     5
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ ARRAY DATA BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER ARRAY DATA, C3A1                                                              C3A1                            
+   INPUT           PSTOP                                                                                C3A1                            
+   INPUT           PSTART                                                                               C3A1                            
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     6
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ CHARACTER ARRAY DATA BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER CARRAY DATA, C3A1                                                             C3A1                            
+   INPUT            1 = MAIN, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19         C3A1                            
+   INPUT            2 =  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37         C3A1                            
+   INPUT            3 =  38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55         C3A1                            
+   INPUT            4 =  56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73         C3A1                            
+   INPUT            5 =  74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91         C3A1                            
+   INPUT            6 =  92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107         C3A1                            
+   INPUT            7 =  108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122      C3A1                            
+   INPUT            8 =  123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137      C3A1                            
+   INPUT            9 =  138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152      C3A1                            
+   INPUT            10 =  153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167     C3A1                            
+   INPUT            11 =  168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182     C3A1                            
+   INPUT            12 =  183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197     C3A1                            
+   INPUT            13 =  198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212     C3A1                            
+   INPUT            14 =  213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227     C3A1                            
+   INPUT            15 =  228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242     C3A1                            
+   INPUT            16 =  243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257     C3A1                            
+   INPUT            17 =  258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272     C3A1                            
+   INPUT            18 =  273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287     C3A1                            
+   INPUT            19 =  288                                                                           C3A1                            
+   INPUT           C INSERT C3A1.hrl                                                                    C3A1                            
+   INPUT           HEADER SOLVER                                                                        GLOBAL                          
+   INPUT               ADERO  = 0.0001                                                                  GLOBAL                          
+   INPUT               RDERO  = 0.02                                                                    GLOBAL                          
+   INPUT               AERRO  = 0.0001                                                                  GLOBAL                          
+   INPUT               RERRO  = 0.01                                                                    GLOBAL                          
+   INPUT               PUSHO  = 1.                                                                      GLOBAL                          
+   INPUT               RCACTO  = 0.1                                                                    GLOBAL                          
+   INPUT               RCERRO  = 0.003                                                                  GLOBAL                          
+   INPUT               ACHGO  = 0.1                                                                     GLOBAL                          
+   INPUT               RCHGO  = 0.9                                                                     GLOBAL                          
+   INPUT               RCVIO  = 0.2                                                                     GLOBAL                          
+   INPUT               METHO  = 2                                                                       GLOBAL                          
+   INPUT               NLOOPO  = 100                                                                    GLOBAL                          
+   INPUT               MDERO  = 0                                                                       GLOBAL                          
+   INPUT               NCONVO  = 2                                                                      GLOBAL                          
+   INPUT               NERVUS  = 0                                                                      GLOBAL                          
+   INPUT               NEWPRO  = 0                                                                      GLOBAL                          
+   INPUT               NLOOPR  = 100                                                                    GLOBAL                          
+   INPUT               ADERR  = 0.01                                                                    GLOBAL                          
+   INPUT               RERRR  = 0.001                                                                   GLOBAL                          
+   INPUT               AERRR  = 1.000000E-05                                                            GLOBAL                          
+   INPUT               RDERR  = 0.02                                                                    GLOBAL                          
+   INPUT           C INSERT Keplerian.cc                                                                GLOBAL                          
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     7
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ NODE DATA BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER NODE DATA, MAIN                                                               MAIN                            
+   INPUT                       1,    293.15,    2.761364                                                MAIN                            
+   INPUT                       2,    293.15,    5.522727                                                MAIN                            
+   INPUT                       3,    293.15,    5.522727                                                MAIN                            
+   INPUT                       4,    293.15,    5.522727                                                MAIN                            
+   INPUT                       5,    293.15,    5.522727                                                MAIN                            
+   INPUT                       6,    293.15,    5.522727                                                MAIN                            
+   INPUT                       7,    293.15,    5.522727                                                MAIN                            
+   INPUT                       8,    293.15,    5.522727                                                MAIN                            
+   INPUT                       9,    293.15,    5.522727                                                MAIN                            
+   INPUT                       10,    293.15,    5.522727                                               MAIN                            
+   INPUT                       11,    293.15,    5.522727                                               MAIN                            
+   INPUT                       12,    293.15,    2.761364                                               MAIN                            
+   INPUT                       13,    293.15,    5.522727                                               MAIN                            
+   INPUT                       14,    293.15,    11.04545                                               MAIN                            
+   INPUT                       15,    293.15,    11.04545                                               MAIN                            
+   INPUT                       16,    293.15,    11.04545                                               MAIN                            
+   INPUT                       17,    293.15,    11.04545                                               MAIN                            
+   INPUT                       18,    293.15,    11.04545                                               MAIN                            
+   INPUT                       19,    293.15,    11.04545                                               MAIN                            
+   INPUT                       20,    293.15,    11.04545                                               MAIN                            
+   INPUT                       21,    293.15,    11.04545                                               MAIN                            
+   INPUT                       22,    293.15,    11.04545                                               MAIN                            
+   INPUT                       23,    293.15,    11.04545                                               MAIN                            
+   INPUT                       24,    293.15,    5.522727                                               MAIN                            
+   INPUT                       25,    293.15,    5.522727                                               MAIN                            
+   INPUT                       26,    293.15,    11.04545                                               MAIN                            
+   INPUT                       27,    293.15,    11.04545                                               MAIN                            
+   INPUT                       28,    293.15,    11.04545                                               MAIN                            
+   INPUT                       29,    293.15,    11.04545                                               MAIN                            
+   INPUT                       30,    293.15,    11.04545                                               MAIN                            
+   INPUT                       31,    293.15,    11.04545                                               MAIN                            
+   INPUT                       32,    293.15,    11.04545                                               MAIN                            
+   INPUT                       33,    293.15,    11.04545                                               MAIN                            
+   INPUT                       34,    293.15,    11.04545                                               MAIN                            
+   INPUT                       35,    293.15,    11.04545                                               MAIN                            
+   INPUT                       36,    293.15,    5.522727                                               MAIN                            
+   INPUT                       37,    293.15,    2.761364                                               MAIN                            
+   INPUT                       38,    293.15,    5.522727                                               MAIN                            
+   INPUT                       39,    293.15,    5.522727                                               MAIN                            
+   INPUT                       40,    293.15,    5.522727                                               MAIN                            
+   INPUT                       41,    293.15,    5.522727                                               MAIN                            
+   INPUT                       42,    293.15,    5.522727                                               MAIN                            
+   INPUT                       43,    293.15,    5.522727                                               MAIN                            
+   INPUT                       44,    293.15,    5.522727                                               MAIN                            
+   INPUT                       45,    293.15,    5.522727                                               MAIN                            
+   INPUT                       46,    293.15,    5.522727                                               MAIN                            
+   INPUT                       47,    293.15,    5.522727                                               MAIN                            
+   INPUT                       48,    293.15,    2.761364                                               MAIN                            
+   INPUT                       49,    293.15,    2.761364                                               MAIN                            
+   INPUT                       50,    293.15,    0.9204545                                              MAIN                            
+   INPUT                       51,    293.15,    0.9204545                                              MAIN                            
+   INPUT                       52,    293.15,    2.761364                                               MAIN                            
+   INPUT                       53,    293.15,    2.761364                                               MAIN                            
+   INPUT                       54,    293.15,    11.04545                                               MAIN                            
+   INPUT                       55,    293.15,    3.681818                                               MAIN                            
+   INPUT                       56,    293.15,    3.681818                                               MAIN                            
+   INPUT                       57,    293.15,    11.04545                                               MAIN                            
+   INPUT                       58,    293.15,    5.522727                                               MAIN                            
+   INPUT                       59,    293.15,    11.04545                                               MAIN                            
+   INPUT                       60,    293.15,    3.681818                                               MAIN                            
+   INPUT                       61,    293.15,    3.681818                                               MAIN                            
+   INPUT                       62,    293.15,    11.04545                                               MAIN                            
+   INPUT                       63,    293.15,    5.522727                                               MAIN                            
+   INPUT                       64,    293.15,    5.522727                                               MAIN                            
+   INPUT                       65,    293.15,    1.840909                                               MAIN                            
+   INPUT                       66,    293.15,    1.840909                                               MAIN                            
+   INPUT                       67,    293.15,    5.522727                                               MAIN                            
+   INPUT                       68,    293.15,    2.761364                                               MAIN                            
+   INPUT                       69,    293.15,    5.522727                                               MAIN                            
+   INPUT                       70,    293.15,    1.840909                                               MAIN                            
+   INPUT                       71,    293.15,    1.840909                                               MAIN                            
+   INPUT                       72,    293.15,    5.522727                                               MAIN                            
+   INPUT                       73,    293.15,    5.522727                                               MAIN                            
+   INPUT                       74,    293.15,    11.04545                                               MAIN                            
+   INPUT                       75,    293.15,    3.681818                                               MAIN                            
+   INPUT                       76,    293.15,    3.681818                                               MAIN                            
+   INPUT                       77,    293.15,    11.04545                                               MAIN                            
+   INPUT                       78,    293.15,    11.04545                                               MAIN                            
+   INPUT                       79,    293.15,    11.04545                                               MAIN                            
+   INPUT                       80,    293.15,    3.681818                                               MAIN                            
+   INPUT                       81,    293.15,    3.681818                                               MAIN                            
+   INPUT                       82,    293.15,    11.04545                                               MAIN                            
+   INPUT                       83,    293.15,    11.04545                                               MAIN                            
+   INPUT                       84,    293.15,    5.522727                                               MAIN                            
+   INPUT                       85,    293.15,    1.840909                                               MAIN                            
+   INPUT                       86,    293.15,    1.840909                                               MAIN                            
+   INPUT                       87,    293.15,    5.522727                                               MAIN                            
+   INPUT                       88,    293.15,    11.04545                                               MAIN                            
+   INPUT                       89,    293.15,    5.522727                                               MAIN                            
+   INPUT                       90,    293.15,    1.840909                                               MAIN                            
+   INPUT                       91,    293.15,    1.840909                                               MAIN                            
+   INPUT                       92,    293.15,    5.522727                                               MAIN                            
+   INPUT                       93,    293.15,    11.04545                                               MAIN                            
+   INPUT                       94,    293.15,    11.04545                                               MAIN                            
+   INPUT                       95,    293.15,    3.681818                                               MAIN                            
+   INPUT                       96,    293.15,    3.681818                                               MAIN                            
+   INPUT                       97,    293.15,    11.04545                                               MAIN                            
+   INPUT                       98,    293.15,    11.04545                                               MAIN                            
+   INPUT                       99,    293.15,    11.04545                                               MAIN                            
+   INPUT                       100,    293.15,    3.681818                                              MAIN                            
+   INPUT                       101,    293.15,    3.681818                                              MAIN                            
+   INPUT                       102,    293.15,    11.04545                                              MAIN                            
+   INPUT                       103,    293.15,    11.04545                                              MAIN                            
+   INPUT                       104,    293.15,    5.522727                                              MAIN                            
+   INPUT                       105,    293.15,    1.840909                                              MAIN                            
+   INPUT                       106,    293.15,    1.840909                                              MAIN                            
+   INPUT                       107,    293.15,    5.522727                                              MAIN                            
+   INPUT                       108,    293.15,    5.522727                                              MAIN                            
+   INPUT                       109,    293.15,    5.522727                                              MAIN                            
+   INPUT                       110,    293.15,    1.840909                                              MAIN                            
+   INPUT                       111,    293.15,    1.840909                                              MAIN                            
+   INPUT                       112,    293.15,    5.522727                                              MAIN                            
+   INPUT                       113,    293.15,    11.04545                                              MAIN                            
+   INPUT                       114,    293.15,    5.522727                                              MAIN                            
+   INPUT                       115,    293.15,    1.840909                                              MAIN                            
+   INPUT                       116,    293.15,    1.840909                                              MAIN                            
+   INPUT                       117,    293.15,    5.522727                                              MAIN                            
+   INPUT                       118,    293.15,    11.04545                                              MAIN                            
+   INPUT                       119,    293.15,    11.04545                                              MAIN                            
+   INPUT                       120,    293.15,    3.681818                                              MAIN                            
+   INPUT                       121,    293.15,    3.681818                                              MAIN                            
+   INPUT                       122,    293.15,    11.04545                                              MAIN                            
+   INPUT                       123,    293.15,    11.04545                                              MAIN                            
+   INPUT                       124,    293.15,    11.04545                                              MAIN                            
+   INPUT                       125,    293.15,    3.681818                                              MAIN                            
+   INPUT                       126,    293.15,    3.681818                                              MAIN                            
+   INPUT                       127,    293.15,    11.04545                                              MAIN                            
+   INPUT                       128,    293.15,    11.04545                                              MAIN                            
+   INPUT                       129,    293.15,    5.522727                                              MAIN                            
+   INPUT                       130,    293.15,    1.840909                                              MAIN                            
+   INPUT                       131,    293.15,    1.840909                                              MAIN                            
+   INPUT                       132,    293.15,    5.522727                                              MAIN                            
+   INPUT                       133,    293.15,    5.522727                                              MAIN                            
+   INPUT                       134,    293.15,    5.522727                                              MAIN                            
+   INPUT                       135,    293.15,    1.840909                                              MAIN                            
+   INPUT                       136,    293.15,    1.840909                                              MAIN                            
+   INPUT                       137,    293.15,    5.522727                                              MAIN                            
+   INPUT                       138,    293.15,    5.522727                                              MAIN                            
+   INPUT                       139,    293.15,    11.04545                                              MAIN                            
+   INPUT                       140,    293.15,    3.681818                                              MAIN                            
+   INPUT                       141,    293.15,    3.681818                                              MAIN                            
+   INPUT                       142,    293.15,    11.04545                                              MAIN                            
+   INPUT                       143,    293.15,    11.04545                                              MAIN                            
+   INPUT                       144,    293.15,    11.04545                                              MAIN                            
+   INPUT                       145,    293.15,    3.681818                                              MAIN                            
+   INPUT                       146,    293.15,    3.681818                                              MAIN                            
+   INPUT                       147,    293.15,    11.04545                                              MAIN                            
+   INPUT                       148,    293.15,    11.04545                                              MAIN                            
+   INPUT                       149,    293.15,    5.522727                                              MAIN                            
+   INPUT                       150,    293.15,    1.840909                                              MAIN                            
+   INPUT                       151,    293.15,    1.840909                                              MAIN                            
+   INPUT                       152,    293.15,    5.522727                                              MAIN                            
+   INPUT                       153,    293.15,    11.04545                                              MAIN                            
+   INPUT                       154,    293.15,    5.522727                                              MAIN                            
+   INPUT                       155,    293.15,    1.840909                                              MAIN                            
+   INPUT                       156,    293.15,    1.840909                                              MAIN                            
+   INPUT                       157,    293.15,    5.522727                                              MAIN                            
+   INPUT                       158,    293.15,    11.04545                                              MAIN                            
+   INPUT                       159,    293.15,    5.522727                                              MAIN                            
+   INPUT                       160,    293.15,    1.840909                                              MAIN                            
+   INPUT                       161,    293.15,    1.840909                                              MAIN                            
+   INPUT                       162,    293.15,    5.522727                                              MAIN                            
+   INPUT                       163,    293.15,    5.522727                                              MAIN                            
+   INPUT                       164,    293.15,    11.04545                                              MAIN                            
+   INPUT                       165,    293.15,    3.681818                                              MAIN                            
+   INPUT                       166,    293.15,    3.681818                                              MAIN                            
+   INPUT                       167,    293.15,    11.04545                                              MAIN                            
+   INPUT                       168,    293.15,    11.04545                                              MAIN                            
+   INPUT                       169,    293.15,    11.04545                                              MAIN                            
+   INPUT                       170,    293.15,    3.681818                                              MAIN                            
+   INPUT                       171,    293.15,    3.681818                                              MAIN                            
+   INPUT                       172,    293.15,    11.04545                                              MAIN                            
+   INPUT                       173,    293.15,    11.04545                                              MAIN                            
+   INPUT                       174,    293.15,    5.522727                                              MAIN                            
+   INPUT                       175,    293.15,    1.840909                                              MAIN                            
+   INPUT                       176,    293.15,    1.840909                                              MAIN                            
+   INPUT                       177,    293.15,    5.522727                                              MAIN                            
+   INPUT                       178,    293.15,    11.04545                                              MAIN                            
+   INPUT                       179,    293.15,    5.522727                                              MAIN                            
+   INPUT                       180,    293.15,    1.840909                                              MAIN                            
+   INPUT                       181,    293.15,    1.840909                                              MAIN                            
+   INPUT                       182,    293.15,    5.522727                                              MAIN                            
+   INPUT                       183,    293.15,    11.04545                                              MAIN                            
+   INPUT                       184,    293.15,    11.04545                                              MAIN                            
+   INPUT                       185,    293.15,    3.681818                                              MAIN                            
+   INPUT                       186,    293.15,    3.681818                                              MAIN                            
+   INPUT                       187,    293.15,    11.04545                                              MAIN                            
+   INPUT                       188,    293.15,    11.04545                                              MAIN                            
+   INPUT                       189,    293.15,    11.04545                                              MAIN                            
+   INPUT                       190,    293.15,    3.681818                                              MAIN                            
+   INPUT                       191,    293.15,    3.681818                                              MAIN                            
+   INPUT                       192,    293.15,    11.04545                                              MAIN                            
+   INPUT                       193,    293.15,    11.04545                                              MAIN                            
+   INPUT                       194,    293.15,    5.522727                                              MAIN                            
+   INPUT                       195,    293.15,    1.840909                                              MAIN                            
+   INPUT                       196,    293.15,    1.840909                                              MAIN                            
+   INPUT                       197,    293.15,    5.522727                                              MAIN                            
+   INPUT                       198,    293.15,    5.522727                                              MAIN                            
+   INPUT                       199,    293.15,    5.522727                                              MAIN                            
+   INPUT                       200,    293.15,    1.840909                                              MAIN                            
+   INPUT                       201,    293.15,    1.840909                                              MAIN                            
+   INPUT                       202,    293.15,    5.522727                                              MAIN                            
+   INPUT                       203,    293.15,    2.761364                                              MAIN                            
+   INPUT                       204,    293.15,    11.04545                                              MAIN                            
+   INPUT                       205,    293.15,    3.681818                                              MAIN                            
+   INPUT                       206,    293.15,    3.681818                                              MAIN                            
+   INPUT                       207,    293.15,    11.04545                                              MAIN                            
+   INPUT                       208,    293.15,    5.522727                                              MAIN                            
+   INPUT                       209,    293.15,    11.04545                                              MAIN                            
+   INPUT                       210,    293.15,    3.681818                                              MAIN                            
+   INPUT                       211,    293.15,    3.681818                                              MAIN                            
+   INPUT                       212,    293.15,    11.04545                                              MAIN                            
+   INPUT                       213,    293.15,    5.522727                                              MAIN                            
+   INPUT                       214,    293.15,    2.761364                                              MAIN                            
+   INPUT                       215,    293.15,    0.9204545                                             MAIN                            
+   INPUT                       216,    293.15,    0.9204545                                             MAIN                            
+   INPUT                       217,    293.15,    2.761364                                              MAIN                            
+   INPUT                       218,    293.15,    5.522727                                              MAIN                            
+   INPUT                       219,    293.15,    5.522727                                              MAIN                            
+   INPUT                       220,    293.15,    1.840909                                              MAIN                            
+   INPUT                       221,    293.15,    1.840909                                              MAIN                            
+   INPUT                       222,    293.15,    5.522727                                              MAIN                            
+   INPUT                       223,    293.15,    5.522727                                              MAIN                            
+   INPUT                       224,    293.15,    5.522727                                              MAIN                            
+   INPUT                       225,    293.15,    1.840909                                              MAIN                            
+   INPUT                       226,    293.15,    1.840909                                              MAIN                            
+   INPUT                       227,    293.15,    5.522727                                              MAIN                            
+   INPUT                       228,    293.15,    5.522727                                              MAIN                            
+   INPUT                       229,    293.15,    11.04545                                              MAIN                            
+   INPUT                       230,    293.15,    3.681818                                              MAIN                            
+   INPUT                       231,    293.15,    3.681818                                              MAIN                            
+   INPUT                       232,    293.15,    11.04545                                              MAIN                            
+   INPUT                       233,    293.15,    5.522727                                              MAIN                            
+   INPUT                       234,    293.15,    11.04545                                              MAIN                            
+   INPUT                       235,    293.15,    3.681818                                              MAIN                            
+   INPUT                       236,    293.15,    3.681818                                              MAIN                            
+   INPUT                       237,    293.15,    11.04545                                              MAIN                            
+   INPUT                       238,    293.15,    5.522727                                              MAIN                            
+   INPUT                       239,    293.15,    5.522727                                              MAIN                            
+   INPUT                       240,    293.15,    1.840909                                              MAIN                            
+   INPUT                       241,    293.15,    1.840909                                              MAIN                            
+   INPUT                       242,    293.15,    5.522727                                              MAIN                            
+   INPUT                       243,    293.15,    5.522727                                              MAIN                            
+   INPUT                       244,    293.15,    2.761364                                              MAIN                            
+   INPUT                       245,    293.15,    0.9204545                                             MAIN                            
+   INPUT                       246,    293.15,    0.9204545                                             MAIN                            
+   INPUT                       247,    293.15,    2.761364                                              MAIN                            
+   INPUT                       248,    293.15,    5.522727                                              MAIN                            
+   INPUT                       249,    293.15,    5.522727                                              MAIN                            
+   INPUT                       250,    293.15,    1.840909                                              MAIN                            
+   INPUT                       251,    293.15,    1.840909                                              MAIN                            
+   INPUT                       252,    293.15,    5.522727                                              MAIN                            
+   INPUT                       253,    293.15,    5.522727                                              MAIN                            
+   INPUT                       254,    293.15,    5.522727                                              MAIN                            
+   INPUT                       255,    293.15,    1.840909                                              MAIN                            
+   INPUT                       256,    293.15,    1.840909                                              MAIN                            
+   INPUT                       257,    293.15,    5.522727                                              MAIN                            
+   INPUT                       258,    293.15,    5.522727                                              MAIN                            
+   INPUT                       259,    293.15,    2.761364                                              MAIN                            
+   INPUT                       260,    293.15,    0.9204545                                             MAIN                            
+   INPUT                       261,    293.15,    0.9204545                                             MAIN                            
+   INPUT                       262,    293.15,    2.761364                                              MAIN                            
+   INPUT                       263,    293.15,    2.761364                                              MAIN                            
+   INPUT                       264,    293.15,    5.522727                                              MAIN                            
+   INPUT                       265,    293.15,    1.840909                                              MAIN                            
+   INPUT                       266,    293.15,    1.840909                                              MAIN                            
+   INPUT                       267,    293.15,    5.522727                                              MAIN                            
+   INPUT                       268,    293.15,    5.522727                                              MAIN                            
+   INPUT                       269,    293.15,    11.04545                                              MAIN                            
+   INPUT                       270,    293.15,    3.681818                                              MAIN                            
+   INPUT                       271,    293.15,    3.681818                                              MAIN                            
+   INPUT                       272,    293.15,    11.04545                                              MAIN                            
+   INPUT                       273,    293.15,    5.522727                                              MAIN                            
+   INPUT                       274,    293.15,    11.04545                                              MAIN                            
+   INPUT                       275,    293.15,    3.681818                                              MAIN                            
+   INPUT                       276,    293.15,    3.681818                                              MAIN                            
+   INPUT                       277,    293.15,    11.04545                                              MAIN                            
+   INPUT                       278,    293.15,    5.522727                                              MAIN                            
+   INPUT                       279,    293.15,    5.522727                                              MAIN                            
+   INPUT                       280,    293.15,    1.840909                                              MAIN                            
+   INPUT                       281,    293.15,    1.840909                                              MAIN                            
+   INPUT                       282,    293.15,    5.522727                                              MAIN                            
+   INPUT                       283,    293.15,    5.522727                                              MAIN                            
+   INPUT                       284,    293.15,    5.522727                                              MAIN                            
+   INPUT                       285,    293.15,    1.840909                                              MAIN                            
+   INPUT                       286,    293.15,    1.840909                                              MAIN                            
+   INPUT                       287,    293.15,    5.522727                                              MAIN                            
+   INPUT                       288,    293.15,    5.522727                                              MAIN                            
+   INPUT           HEADER NODE DATA, SPACE                                                              SPACE                           
+   INPUT                       -1,    2.73,    -1.0                                                     SPACE                           
+   INPUT           HEADER NODE DATA, C3A1                                                               C3A1                            
+   INPUT           HEADER NODE DATA,C3A0                                                                C3A0                            
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     8
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ CONDUCTOR DATA BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER CONDUCTOR DATA, MAIN                                                          MAIN                            
+   INPUT                       1,    MAIN.1,    MAIN.2,    0.5102777                                    MAIN                            
+   INPUT                       2,    MAIN.1,    MAIN.13,    0.3415909                                   MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       3,    MAIN.1,    MAIN.65,    0.002727273                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       4,    MAIN.1,    MAIN.214,    0.03030303                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       5,    MAIN.1,    MAIN.215,    0.002272727                                MAIN                            
+   INPUT                       6,    MAIN.1,    MAIN.280,    0.009090909                                MAIN                            
+   INPUT                       7,    MAIN.2,    MAIN.3,    0.5102777                                    MAIN                            
+   INPUT                       8,    MAIN.2,    MAIN.14,    0.6831818                                   MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       9,    MAIN.2,    MAIN.279,    0.02727273                                 MAIN                            
+   INPUT                       10,    MAIN.3,    MAIN.4,    0.5102777                                   MAIN                            
+   INPUT                       11,    MAIN.3,    MAIN.15,    0.6831818                                  MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       12,    MAIN.3,    MAIN.64,    0.02727273                                 MAIN                            
+   INPUT                       13,    MAIN.4,    MAIN.5,    0.5102777                                   MAIN                            
+   INPUT                       14,    MAIN.4,    MAIN.16,    0.6831818                                  MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       15,    MAIN.4,    MAIN.84,    0.02727273                                 MAIN                            
+   INPUT                       16,    MAIN.5,    MAIN.6,    0.5102777                                   MAIN                            
+   INPUT                       17,    MAIN.5,    MAIN.17,    0.6831818                                  MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       18,    MAIN.5,    MAIN.109,    0.02727273                                MAIN                            
+   INPUT                       19,    MAIN.6,    MAIN.7,    0.5102777                                   MAIN                            
+   INPUT                       20,    MAIN.6,    MAIN.18,    0.6831818                                  MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       21,    MAIN.6,    MAIN.129,    0.02727273                                MAIN                            
+   INPUT                       22,    MAIN.7,    MAIN.8,    0.5102777                                   MAIN                            
+   INPUT                       23,    MAIN.7,    MAIN.19,    0.6831818                                  MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       24,    MAIN.7,    MAIN.149,    0.02727273                                MAIN                            
+   INPUT                       25,    MAIN.8,    MAIN.9,    0.5102777                                   MAIN                            
+   INPUT                       26,    MAIN.8,    MAIN.20,    0.6831818                                  MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       27,    MAIN.8,    MAIN.174,    0.02727273                                MAIN                            
+   INPUT                       28,    MAIN.9,    MAIN.10,    0.5102777                                  MAIN                            
+   INPUT                       29,    MAIN.9,    MAIN.21,    0.6831818                                  MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       30,    MAIN.9,    MAIN.194,    0.02727273                                MAIN                            
+   INPUT                       31,    MAIN.10,    MAIN.11,    0.5102777                                 MAIN                            
+   INPUT                       32,    MAIN.10,    MAIN.22,    0.6831818                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       33,    MAIN.10,    MAIN.219,    0.02727273                               MAIN                            
+   INPUT                       34,    MAIN.11,    MAIN.12,    0.5102777                                 MAIN                            
+   INPUT                       35,    MAIN.11,    MAIN.23,    0.6831818                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       36,    MAIN.11,    MAIN.239,    0.02727273                               MAIN                            
+   INPUT                       37,    MAIN.12,    MAIN.24,    0.3415909                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       38,    MAIN.12,    MAIN.66,    0.002727273                               MAIN                            
+   INPUT                       39,    MAIN.12,    MAIN.216,    0.002272727                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       40,    MAIN.12,    MAIN.259,    0.03030303                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       41,    MAIN.12,    MAIN.281,    0.009090909                              MAIN                            
+   INPUT                       42,    MAIN.13,    MAIN.14,    1.020555                                  MAIN                            
+   INPUT                       43,    MAIN.13,    MAIN.25,    0.3415909                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       44,    MAIN.13,    MAIN.65,    0.006363636                               MAIN                            
+   INPUT                       45,    MAIN.13,    MAIN.85,    0.009090909                               MAIN                            
+   INPUT                       46,    MAIN.13,    MAIN.110,    0.009090909                              MAIN                            
+   INPUT                       47,    MAIN.13,    MAIN.130,    0.009090909                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       48,    MAIN.13,    MAIN.214,    0.03333333                               MAIN                            
+   INPUT                       49,    MAIN.14,    MAIN.15,    1.020555                                  MAIN                            
+   INPUT                       50,    MAIN.14,    MAIN.26,    0.6831818                                 MAIN                            
+   INPUT                       51,    MAIN.15,    MAIN.16,    1.020555                                  MAIN                            
+   INPUT                       52,    MAIN.15,    MAIN.27,    0.6831818                                 MAIN                            
+   INPUT                       53,    MAIN.16,    MAIN.17,    1.020555                                  MAIN                            
+   INPUT                       54,    MAIN.16,    MAIN.28,    0.6831818                                 MAIN                            
+   INPUT                       55,    MAIN.17,    MAIN.18,    1.020555                                  MAIN                            
+   INPUT                       56,    MAIN.17,    MAIN.29,    0.6831818                                 MAIN                            
+   INPUT                       57,    MAIN.18,    MAIN.19,    1.020555                                  MAIN                            
+   INPUT                       58,    MAIN.18,    MAIN.30,    0.6831818                                 MAIN                            
+   INPUT                       59,    MAIN.19,    MAIN.20,    1.020555                                  MAIN                            
+   INPUT                       60,    MAIN.19,    MAIN.31,    0.6831818                                 MAIN                            
+   INPUT                       61,    MAIN.20,    MAIN.21,    1.020555                                  MAIN                            
+   INPUT                       62,    MAIN.20,    MAIN.32,    0.6831818                                 MAIN                            
+   INPUT                       63,    MAIN.21,    MAIN.22,    1.020555                                  MAIN                            
+   INPUT                       64,    MAIN.21,    MAIN.33,    0.6831818                                 MAIN                            
+   INPUT                       65,    MAIN.22,    MAIN.23,    1.020555                                  MAIN                            
+   INPUT                       66,    MAIN.22,    MAIN.34,    0.6831818                                 MAIN                            
+   INPUT                       67,    MAIN.23,    MAIN.24,    1.020555                                  MAIN                            
+   INPUT                       68,    MAIN.23,    MAIN.35,    0.6831818                                 MAIN                            
+   INPUT                       69,    MAIN.24,    MAIN.36,    0.3415909                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       70,    MAIN.24,    MAIN.66,    0.006363636                               MAIN                            
+   INPUT                       71,    MAIN.24,    MAIN.86,    0.009090909                               MAIN                            
+   INPUT                       72,    MAIN.24,    MAIN.111,    0.009090909                              MAIN                            
+   INPUT                       73,    MAIN.24,    MAIN.131,    0.009090909                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       74,    MAIN.24,    MAIN.259,    0.03333333                               MAIN                            
+   INPUT                       75,    MAIN.25,    MAIN.26,    1.020555                                  MAIN                            
+   INPUT                       76,    MAIN.25,    MAIN.37,    0.3415909                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       77,    MAIN.25,    MAIN.150,    0.009090909                              MAIN                            
+   INPUT                       78,    MAIN.25,    MAIN.175,    0.009090909                              MAIN                            
+   INPUT                       79,    MAIN.25,    MAIN.195,    0.009090909                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       80,    MAIN.25,    MAIN.217,    0.03333333                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       81,    MAIN.25,    MAIN.220,    0.006363636                              MAIN                            
+   INPUT                       82,    MAIN.26,    MAIN.27,    1.020555                                  MAIN                            
+   INPUT                       83,    MAIN.26,    MAIN.38,    0.6831818                                 MAIN                            
+   INPUT                       84,    MAIN.27,    MAIN.28,    1.020555                                  MAIN                            
+   INPUT                       85,    MAIN.27,    MAIN.39,    0.6831818                                 MAIN                            
+   INPUT                       86,    MAIN.28,    MAIN.29,    1.020555                                  MAIN                            
+   INPUT                       87,    MAIN.28,    MAIN.40,    0.6831818                                 MAIN                            
+   INPUT                       88,    MAIN.29,    MAIN.30,    1.020555                                  MAIN                            
+   INPUT                       89,    MAIN.29,    MAIN.41,    0.6831818                                 MAIN                            
+   INPUT                       90,    MAIN.30,    MAIN.31,    1.020555                                  MAIN                            
+   INPUT                       91,    MAIN.30,    MAIN.42,    0.6831818                                 MAIN                            
+   INPUT                       92,    MAIN.31,    MAIN.32,    1.020555                                  MAIN                            
+   INPUT                       93,    MAIN.31,    MAIN.43,    0.6831818                                 MAIN                            
+   INPUT                       94,    MAIN.32,    MAIN.33,    1.020555                                  MAIN                            
+   INPUT                       95,    MAIN.32,    MAIN.44,    0.6831818                                 MAIN                            
+   INPUT                       96,    MAIN.33,    MAIN.34,    1.020555                                  MAIN                            
+   INPUT                       97,    MAIN.33,    MAIN.45,    0.6831818                                 MAIN                            
+   INPUT                       98,    MAIN.34,    MAIN.35,    1.020555                                  MAIN                            
+   INPUT                       99,    MAIN.34,    MAIN.46,    0.6831818                                 MAIN                            
+   INPUT                       100,    MAIN.35,    MAIN.36,    1.020555                                 MAIN                            
+   INPUT                       101,    MAIN.35,    MAIN.47,    0.6831818                                MAIN                            
+   INPUT                       102,    MAIN.36,    MAIN.48,    0.3415909                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       103,    MAIN.36,    MAIN.151,    0.009090909                             MAIN                            
+   INPUT                       104,    MAIN.36,    MAIN.176,    0.009090909                             MAIN                            
+   INPUT                       105,    MAIN.36,    MAIN.196,    0.009090909                             MAIN                            
+   INPUT                       106,    MAIN.36,    MAIN.221,    0.006363636                             MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       107,    MAIN.36,    MAIN.262,    0.03333333                              MAIN                            
+   INPUT                       108,    MAIN.37,    MAIN.38,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       109,    MAIN.37,    MAIN.217,    0.03030303                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       110,    MAIN.37,    MAIN.220,    0.002727273                             MAIN                            
+   INPUT                       111,    MAIN.37,    MAIN.240,    0.009090909                             MAIN                            
+   INPUT                       112,    MAIN.37,    MAIN.260,    0.006212121                             MAIN                            
+   INPUT                       113,    MAIN.38,    MAIN.39,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       114,    MAIN.38,    MAIN.282,    0.02727273                              MAIN                            
+   INPUT                       115,    MAIN.39,    MAIN.40,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       116,    MAIN.39,    MAIN.67,    0.02727273                               MAIN                            
+   INPUT                       117,    MAIN.40,    MAIN.41,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       118,    MAIN.40,    MAIN.87,    0.02727273                               MAIN                            
+   INPUT                       119,    MAIN.41,    MAIN.42,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       120,    MAIN.41,    MAIN.112,    0.02727273                              MAIN                            
+   INPUT                       121,    MAIN.42,    MAIN.43,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       122,    MAIN.42,    MAIN.132,    0.02727273                              MAIN                            
+   INPUT                       123,    MAIN.43,    MAIN.44,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       124,    MAIN.43,    MAIN.152,    0.02727273                              MAIN                            
+   INPUT                       125,    MAIN.44,    MAIN.45,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       126,    MAIN.44,    MAIN.177,    0.02727273                              MAIN                            
+   INPUT                       127,    MAIN.45,    MAIN.46,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       128,    MAIN.45,    MAIN.197,    0.02727273                              MAIN                            
+   INPUT                       129,    MAIN.46,    MAIN.47,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       130,    MAIN.46,    MAIN.222,    0.02727273                              MAIN                            
+   INPUT                       131,    MAIN.47,    MAIN.48,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       132,    MAIN.47,    MAIN.242,    0.02727273                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       133,    MAIN.48,    MAIN.221,    0.002727273                             MAIN                            
+   INPUT                       134,    MAIN.48,    MAIN.241,    0.009090909                             MAIN                            
+   INPUT                       135,    MAIN.48,    MAIN.261,    0.002272727                             MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::458                                             MAIN                            
+   INPUT                       136,    MAIN.48,    MAIN.262,    0.03030303                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       137,    MAIN.49,    MAIN.50,    0.015                                    MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       138,    MAIN.49,    MAIN.53,    0.03030303                               MAIN                            
+   INPUT                       139,    MAIN.49,    MAIN.73,    0.03333333                               MAIN                            
+   INPUT                       140,    MAIN.49,    MAIN.104,    0.3415909                               MAIN                            
+   INPUT                       141,    MAIN.49,    MAIN.264,    0.5102777                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       142,    MAIN.50,    MAIN.53,    0.006212121                              MAIN                            
+   INPUT                       143,    MAIN.50,    MAIN.105,    0.1138636                               MAIN                            
+   INPUT                       144,    MAIN.50,    MAIN.265,    1.530833                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       145,    MAIN.51,    MAIN.68,    0.002272727                              MAIN                            
+   INPUT                       146,    MAIN.51,    MAIN.106,    0.1138636                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       147,    MAIN.51,    MAIN.244,    0.01893939                              MAIN                            
+   INPUT                       148,    MAIN.51,    MAIN.266,    1.530833                                MAIN                            
+   INPUT                       149,    MAIN.52,    MAIN.107,    0.3415909                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       150,    MAIN.52,    MAIN.138,    0.03333333                              MAIN                            
+   INPUT                       151,    MAIN.52,    MAIN.203,    0.03030303                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       152,    MAIN.52,    MAIN.245,    0.015                                   MAIN                            
+   INPUT                       153,    MAIN.52,    MAIN.267,    0.5102777                               MAIN                            
+   INPUT                       154,    MAIN.53,    MAIN.73,    0.3415909                                MAIN                            
+   INPUT                       155,    MAIN.53,    MAIN.108,    0.5102777                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       156,    MAIN.53,    MAIN.265,    0.009090909                             MAIN                            
+   INPUT                       157,    MAIN.53,    MAIN.285,    0.002727273                             MAIN                            
+   INPUT                       158,    MAIN.54,    MAIN.59,    0.6831818                                MAIN                            
+   INPUT                       159,    MAIN.54,    MAIN.74,    1.020555                                 MAIN                            
+   INPUT                       160,    MAIN.54,    MAIN.269,    1.020555                                MAIN                            
+   INPUT                       161,    MAIN.54,    MAIN.284,    0.6831818                               MAIN                            
+   INPUT                       162,    MAIN.55,    MAIN.60,    0.2277273                                MAIN                            
+   INPUT                       163,    MAIN.55,    MAIN.75,    3.061667                                 MAIN                            
+   INPUT                       164,    MAIN.55,    MAIN.270,    3.061667                                MAIN                            
+   INPUT                       165,    MAIN.55,    MAIN.285,    0.2277273                               MAIN                            
+   INPUT                       166,    MAIN.56,    MAIN.61,    0.2277273                                MAIN                            
+   INPUT                       167,    MAIN.56,    MAIN.76,    3.061667                                 MAIN                            
+   INPUT                       168,    MAIN.56,    MAIN.271,    3.061667                                MAIN                            
+   INPUT                       169,    MAIN.56,    MAIN.286,    0.2277273                               MAIN                            
+   INPUT                       170,    MAIN.57,    MAIN.62,    0.6831818                                MAIN                            
+   INPUT                       171,    MAIN.57,    MAIN.77,    1.020555                                 MAIN                            
+   INPUT                       172,    MAIN.57,    MAIN.272,    1.020555                                MAIN                            
+   INPUT                       173,    MAIN.57,    MAIN.287,    0.6831818                               MAIN                            
+   INPUT                       174,    MAIN.58,    MAIN.63,    0.5102777                                MAIN                            
+   INPUT                       175,    MAIN.58,    MAIN.123,    0.6831818                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       176,    MAIN.58,    MAIN.199,    0.02727273                              MAIN                            
+   INPUT                       177,    MAIN.58,    MAIN.288,    0.5102777                               MAIN                            
+   INPUT                       178,    MAIN.59,    MAIN.64,    0.6831818                                MAIN                            
+   INPUT                       179,    MAIN.59,    MAIN.79,    1.020555                                 MAIN                            
+   INPUT                       180,    MAIN.59,    MAIN.274,    1.020555                                MAIN                            
+   INPUT                       181,    MAIN.60,    MAIN.65,    0.2277273                                MAIN                            
+   INPUT                       182,    MAIN.60,    MAIN.80,    3.061667                                 MAIN                            
+   INPUT                       183,    MAIN.60,    MAIN.275,    3.061667                                MAIN                            
+   INPUT                       184,    MAIN.61,    MAIN.66,    0.2277273                                MAIN                            
+   INPUT                       185,    MAIN.61,    MAIN.81,    3.061667                                 MAIN                            
+   INPUT                       186,    MAIN.61,    MAIN.276,    3.061667                                MAIN                            
+   INPUT                       187,    MAIN.62,    MAIN.67,    0.6831818                                MAIN                            
+   INPUT                       188,    MAIN.62,    MAIN.82,    1.020555                                 MAIN                            
+   INPUT                       189,    MAIN.62,    MAIN.277,    1.020555                                MAIN                            
+   INPUT                       190,    MAIN.63,    MAIN.68,    0.5102777                                MAIN                            
+   INPUT                       191,    MAIN.63,    MAIN.128,    0.6831818                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       192,    MAIN.63,    MAIN.224,    0.02727273                              MAIN                            
+   INPUT                       193,    MAIN.64,    MAIN.84,    0.5102777                                MAIN                            
+   INPUT                       194,    MAIN.64,    MAIN.279,    0.5102777                               MAIN                            
+   INPUT                       195,    MAIN.65,    MAIN.85,    1.530833                                 MAIN                            
+   INPUT                       196,    MAIN.65,    MAIN.280,    1.530833                                MAIN                            
+   INPUT                       197,    MAIN.66,    MAIN.86,    1.530833                                 MAIN                            
+   INPUT                       198,    MAIN.66,    MAIN.281,    1.530833                                MAIN                            
+   INPUT                       199,    MAIN.67,    MAIN.87,    0.5102777                                MAIN                            
+   INPUT                       200,    MAIN.67,    MAIN.282,    0.5102777                               MAIN                            
+   INPUT                       201,    MAIN.68,    MAIN.133,    0.3415909                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       202,    MAIN.68,    MAIN.244,    0.03030303                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       203,    MAIN.68,    MAIN.266,    0.009090909                             MAIN                            
+   INPUT                       204,    MAIN.68,    MAIN.286,    0.002727273                             MAIN                            
+   INPUT                       205,    MAIN.69,    MAIN.74,    0.6831818                                MAIN                            
+   INPUT                       206,    MAIN.69,    MAIN.89,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       207,    MAIN.69,    MAIN.218,    0.02727273                              MAIN                            
+   INPUT                       208,    MAIN.69,    MAIN.284,    0.5102777                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       209,    MAIN.70,    MAIN.73,    0.009090909                              MAIN                            
+   INPUT                       210,    MAIN.70,    MAIN.75,    0.2277273                                MAIN                            
+   INPUT                       211,    MAIN.70,    MAIN.90,    1.530833                                 MAIN                            
+   INPUT                       212,    MAIN.70,    MAIN.285,    1.530833                                MAIN                            
+   INPUT                       213,    MAIN.71,    MAIN.76,    0.2277273                                MAIN                            
+   INPUT                       214,    MAIN.71,    MAIN.91,    1.530833                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       215,    MAIN.71,    MAIN.133,    0.009090909                             MAIN                            
+   INPUT                       216,    MAIN.71,    MAIN.286,    1.530833                                MAIN                            
+   INPUT                       217,    MAIN.72,    MAIN.77,    0.6831818                                MAIN                            
+   INPUT                       218,    MAIN.72,    MAIN.92,    0.5102777                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       219,    MAIN.72,    MAIN.223,    0.02727273                              MAIN                            
+   INPUT                       220,    MAIN.72,    MAIN.287,    0.5102777                               MAIN                            
+   INPUT                       221,    MAIN.73,    MAIN.78,    1.020555                                 MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       222,    MAIN.73,    MAIN.90,    0.009090909                              MAIN                            
+   INPUT                       223,    MAIN.73,    MAIN.115,    0.009090909                             MAIN                            
+   INPUT                       224,    MAIN.73,    MAIN.138,    0.3415909                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       225,    MAIN.73,    MAIN.285,    0.006363636                             MAIN                            
+   INPUT                       226,    MAIN.74,    MAIN.79,    0.6831818                                MAIN                            
+   INPUT                       227,    MAIN.74,    MAIN.94,    1.020555                                 MAIN                            
+   INPUT                       228,    MAIN.75,    MAIN.80,    0.2277273                                MAIN                            
+   INPUT                       229,    MAIN.75,    MAIN.95,    3.061667                                 MAIN                            
+   INPUT                       230,    MAIN.76,    MAIN.81,    0.2277273                                MAIN                            
+   INPUT                       231,    MAIN.76,    MAIN.96,    3.061667                                 MAIN                            
+   INPUT                       232,    MAIN.77,    MAIN.82,    0.6831818                                MAIN                            
+   INPUT                       233,    MAIN.77,    MAIN.97,    1.020555                                 MAIN                            
+   INPUT                       234,    MAIN.78,    MAIN.83,    1.020555                                 MAIN                            
+   INPUT                       235,    MAIN.78,    MAIN.108,    0.6831818                               MAIN                            
+   INPUT                       236,    MAIN.78,    MAIN.143,    0.6831818                               MAIN                            
+   INPUT                       237,    MAIN.79,    MAIN.84,    0.6831818                                MAIN                            
+   INPUT                       238,    MAIN.79,    MAIN.99,    1.020555                                 MAIN                            
+   INPUT                       239,    MAIN.80,    MAIN.85,    0.2277273                                MAIN                            
+   INPUT                       240,    MAIN.80,    MAIN.100,    3.061667                                MAIN                            
+   INPUT                       241,    MAIN.81,    MAIN.86,    0.2277273                                MAIN                            
+   INPUT                       242,    MAIN.81,    MAIN.101,    3.061667                                MAIN                            
+   INPUT                       243,    MAIN.82,    MAIN.87,    0.6831818                                MAIN                            
+   INPUT                       244,    MAIN.82,    MAIN.102,    1.020555                                MAIN                            
+   INPUT                       245,    MAIN.83,    MAIN.88,    1.020555                                 MAIN                            
+   INPUT                       246,    MAIN.83,    MAIN.148,    0.6831818                               MAIN                            
+   INPUT                       247,    MAIN.83,    MAIN.163,    0.6831818                               MAIN                            
+   INPUT                       248,    MAIN.84,    MAIN.109,    0.5102777                               MAIN                            
+   INPUT                       249,    MAIN.85,    MAIN.110,    1.530833                                MAIN                            
+   INPUT                       250,    MAIN.86,    MAIN.111,    1.530833                                MAIN                            
+   INPUT                       251,    MAIN.87,    MAIN.112,    0.5102777                               MAIN                            
+   INPUT                       252,    MAIN.88,    MAIN.93,    1.020555                                 MAIN                            
+   INPUT                       253,    MAIN.88,    MAIN.153,    0.6831818                               MAIN                            
+   INPUT                       254,    MAIN.88,    MAIN.218,    0.6831818                               MAIN                            
+   INPUT                       255,    MAIN.89,    MAIN.94,    0.6831818                                MAIN                            
+   INPUT                       256,    MAIN.89,    MAIN.114,    0.5102777                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       257,    MAIN.89,    MAIN.268,    0.02727273                              MAIN                            
+   INPUT                       258,    MAIN.90,    MAIN.95,    0.2277273                                MAIN                            
+   INPUT                       259,    MAIN.90,    MAIN.115,    1.530833                                MAIN                            
+   INPUT                       260,    MAIN.91,    MAIN.96,    0.2277273                                MAIN                            
+   INPUT                       261,    MAIN.91,    MAIN.116,    1.530833                                MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       262,    MAIN.91,    MAIN.133,    0.009090909                             MAIN                            
+   INPUT                       263,    MAIN.92,    MAIN.97,    0.6831818                                MAIN                            
+   INPUT                       264,    MAIN.92,    MAIN.117,    0.5102777                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       265,    MAIN.92,    MAIN.228,    0.02727273                              MAIN                            
+   INPUT                       266,    MAIN.93,    MAIN.98,    1.020555                                 MAIN                            
+   INPUT                       267,    MAIN.93,    MAIN.158,    0.6831818                               MAIN                            
+   INPUT                       268,    MAIN.93,    MAIN.268,    0.6831818                               MAIN                            
+   INPUT                       269,    MAIN.94,    MAIN.99,    0.6831818                                MAIN                            
+   INPUT                       270,    MAIN.94,    MAIN.119,    1.020555                                MAIN                            
+   INPUT                       271,    MAIN.95,    MAIN.100,    0.2277273                               MAIN                            
+   INPUT                       272,    MAIN.95,    MAIN.120,    3.061667                                MAIN                            
+   INPUT                       273,    MAIN.96,    MAIN.101,    0.2277273                               MAIN                            
+   INPUT                       274,    MAIN.96,    MAIN.121,    3.061667                                MAIN                            
+   INPUT                       275,    MAIN.97,    MAIN.102,    0.6831818                               MAIN                            
+   INPUT                       276,    MAIN.97,    MAIN.122,    1.020555                                MAIN                            
+   INPUT                       277,    MAIN.98,    MAIN.103,    1.020555                                MAIN                            
+   INPUT                       278,    MAIN.98,    MAIN.168,    0.6831818                               MAIN                            
+   INPUT                       279,    MAIN.98,    MAIN.273,    0.6831818                               MAIN                            
+   INPUT                       280,    MAIN.99,    MAIN.109,    0.6831818                               MAIN                            
+   INPUT                       281,    MAIN.99,    MAIN.124,    1.020555                                MAIN                            
+   INPUT                       282,    MAIN.100,    MAIN.110,    0.2277273                              MAIN                            
+   INPUT                       283,    MAIN.100,    MAIN.125,    3.061667                               MAIN                            
+   INPUT                       284,    MAIN.101,    MAIN.111,    0.2277273                              MAIN                            
+   INPUT                       285,    MAIN.101,    MAIN.126,    3.061667                               MAIN                            
+   INPUT                       286,    MAIN.102,    MAIN.112,    0.6831818                              MAIN                            
+   INPUT                       287,    MAIN.102,    MAIN.127,    1.020555                               MAIN                            
+   INPUT                       288,    MAIN.103,    MAIN.113,    1.020555                               MAIN                            
+   INPUT                       289,    MAIN.103,    MAIN.173,    0.6831818                              MAIN                            
+   INPUT                       290,    MAIN.103,    MAIN.278,    0.6831818                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       291,    MAIN.104,    MAIN.105,    0.03333333                             MAIN                            
+   INPUT                       292,    MAIN.104,    MAIN.159,    0.3415909                              MAIN                            
+   INPUT                       293,    MAIN.104,    MAIN.269,    1.020555                               MAIN                            
+   INPUT                       294,    MAIN.105,    MAIN.160,    0.1138636                              MAIN                            
+   INPUT                       295,    MAIN.105,    MAIN.270,    3.061667                               MAIN                            
+   INPUT                       296,    MAIN.106,    MAIN.161,    0.1138636                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       297,    MAIN.106,    MAIN.249,    0.03333333                             MAIN                            
+   INPUT                       298,    MAIN.106,    MAIN.271,    3.061667                               MAIN                            
+   INPUT                       299,    MAIN.107,    MAIN.162,    0.3415909                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       300,    MAIN.107,    MAIN.250,    0.03333333                             MAIN                            
+   INPUT                       301,    MAIN.107,    MAIN.272,    1.020555                               MAIN                            
+   INPUT                       302,    MAIN.108,    MAIN.163,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       303,    MAIN.108,    MAIN.264,    0.02727273                             MAIN                            
+   INPUT                       304,    MAIN.109,    MAIN.129,    0.5102777                              MAIN                            
+   INPUT                       305,    MAIN.110,    MAIN.130,    1.530833                               MAIN                            
+   INPUT                       306,    MAIN.111,    MAIN.131,    1.530833                               MAIN                            
+   INPUT                       307,    MAIN.112,    MAIN.132,    0.5102777                              MAIN                            
+   INPUT                       308,    MAIN.113,    MAIN.118,    1.020555                               MAIN                            
+   INPUT                       309,    MAIN.113,    MAIN.178,    0.6831818                              MAIN                            
+   INPUT                       310,    MAIN.113,    MAIN.283,    0.6831818                              MAIN                            
+   INPUT                       311,    MAIN.114,    MAIN.119,    0.6831818                              MAIN                            
+   INPUT                       312,    MAIN.114,    MAIN.134,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       313,    MAIN.114,    MAIN.273,    0.02727273                             MAIN                            
+   INPUT                       314,    MAIN.115,    MAIN.120,    0.2277273                              MAIN                            
+   INPUT                       315,    MAIN.115,    MAIN.135,    1.530833                               MAIN                            
+   INPUT                       316,    MAIN.116,    MAIN.121,    0.2277273                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       317,    MAIN.116,    MAIN.133,    0.009090909                            MAIN                            
+   INPUT                       318,    MAIN.116,    MAIN.136,    1.530833                               MAIN                            
+   INPUT                       319,    MAIN.117,    MAIN.122,    0.6831818                              MAIN                            
+   INPUT                       320,    MAIN.117,    MAIN.137,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       321,    MAIN.117,    MAIN.233,    0.02727273                             MAIN                            
+   INPUT                       322,    MAIN.118,    MAIN.123,    1.020555                               MAIN                            
+   INPUT                       323,    MAIN.118,    MAIN.183,    0.6831818                              MAIN                            
+   INPUT                       324,    MAIN.118,    MAIN.288,    0.6831818                              MAIN                            
+   INPUT                       325,    MAIN.119,    MAIN.124,    0.6831818                              MAIN                            
+   INPUT                       326,    MAIN.119,    MAIN.139,    1.020555                               MAIN                            
+   INPUT                       327,    MAIN.120,    MAIN.125,    0.2277273                              MAIN                            
+   INPUT                       328,    MAIN.120,    MAIN.140,    3.061667                               MAIN                            
+   INPUT                       329,    MAIN.121,    MAIN.126,    0.2277273                              MAIN                            
+   INPUT                       330,    MAIN.121,    MAIN.141,    3.061667                               MAIN                            
+   INPUT                       331,    MAIN.122,    MAIN.127,    0.6831818                              MAIN                            
+   INPUT                       332,    MAIN.122,    MAIN.142,    1.020555                               MAIN                            
+   INPUT                       333,    MAIN.123,    MAIN.128,    1.020555                               MAIN                            
+   INPUT                       334,    MAIN.123,    MAIN.188,    0.6831818                              MAIN                            
+   INPUT                       335,    MAIN.124,    MAIN.129,    0.6831818                              MAIN                            
+   INPUT                       336,    MAIN.124,    MAIN.144,    1.020555                               MAIN                            
+   INPUT                       337,    MAIN.125,    MAIN.130,    0.2277273                              MAIN                            
+   INPUT                       338,    MAIN.125,    MAIN.145,    3.061667                               MAIN                            
+   INPUT                       339,    MAIN.126,    MAIN.131,    0.2277273                              MAIN                            
+   INPUT                       340,    MAIN.126,    MAIN.146,    3.061667                               MAIN                            
+   INPUT                       341,    MAIN.127,    MAIN.132,    0.6831818                              MAIN                            
+   INPUT                       342,    MAIN.127,    MAIN.147,    1.020555                               MAIN                            
+   INPUT                       343,    MAIN.128,    MAIN.133,    1.020555                               MAIN                            
+   INPUT                       344,    MAIN.128,    MAIN.193,    0.6831818                              MAIN                            
+   INPUT                       345,    MAIN.129,    MAIN.149,    0.5102777                              MAIN                            
+   INPUT                       346,    MAIN.130,    MAIN.150,    1.530833                               MAIN                            
+   INPUT                       347,    MAIN.131,    MAIN.151,    1.530833                               MAIN                            
+   INPUT                       348,    MAIN.132,    MAIN.152,    0.5102777                              MAIN                            
+   INPUT                       349,    MAIN.133,    MAIN.198,    0.3415909                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       350,    MAIN.133,    MAIN.244,    0.03333333                             MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       351,    MAIN.133,    MAIN.286,    0.006363636                            MAIN                            
+   INPUT                       352,    MAIN.134,    MAIN.139,    0.6831818                              MAIN                            
+   INPUT                       353,    MAIN.134,    MAIN.154,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       354,    MAIN.134,    MAIN.278,    0.02727273                             MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       355,    MAIN.135,    MAIN.138,    0.009090909                            MAIN                            
+   INPUT                       356,    MAIN.135,    MAIN.140,    0.2277273                              MAIN                            
+   INPUT                       357,    MAIN.135,    MAIN.155,    1.530833                               MAIN                            
+   INPUT                       358,    MAIN.136,    MAIN.141,    0.2277273                              MAIN                            
+   INPUT                       359,    MAIN.136,    MAIN.156,    1.530833                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       360,    MAIN.136,    MAIN.198,    0.009090909                            MAIN                            
+   INPUT                       361,    MAIN.137,    MAIN.142,    0.6831818                              MAIN                            
+   INPUT                       362,    MAIN.137,    MAIN.157,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       363,    MAIN.137,    MAIN.238,    0.02727273                             MAIN                            
+   INPUT                       364,    MAIN.138,    MAIN.143,    1.020555                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       365,    MAIN.138,    MAIN.155,    0.009090909                            MAIN                            
+   INPUT                       366,    MAIN.138,    MAIN.180,    0.009090909                            MAIN                            
+   INPUT                       367,    MAIN.138,    MAIN.200,    0.006363636                            MAIN                            
+   INPUT                       368,    MAIN.138,    MAIN.203,    0.3415909                              MAIN                            
+   INPUT                       369,    MAIN.139,    MAIN.144,    0.6831818                              MAIN                            
+   INPUT                       370,    MAIN.139,    MAIN.164,    1.020555                               MAIN                            
+   INPUT                       371,    MAIN.140,    MAIN.145,    0.2277273                              MAIN                            
+   INPUT                       372,    MAIN.140,    MAIN.165,    3.061667                               MAIN                            
+   INPUT                       373,    MAIN.141,    MAIN.146,    0.2277273                              MAIN                            
+   INPUT                       374,    MAIN.141,    MAIN.166,    3.061667                               MAIN                            
+   INPUT                       375,    MAIN.142,    MAIN.147,    0.6831818                              MAIN                            
+   INPUT                       376,    MAIN.142,    MAIN.167,    1.020555                               MAIN                            
+   INPUT                       377,    MAIN.143,    MAIN.148,    1.020555                               MAIN                            
+   INPUT                       378,    MAIN.143,    MAIN.208,    0.6831818                              MAIN                            
+   INPUT                       379,    MAIN.144,    MAIN.149,    0.6831818                              MAIN                            
+   INPUT                       380,    MAIN.144,    MAIN.169,    1.020555                               MAIN                            
+   INPUT                       381,    MAIN.145,    MAIN.150,    0.2277273                              MAIN                            
+   INPUT                       382,    MAIN.145,    MAIN.170,    3.061667                               MAIN                            
+   INPUT                       383,    MAIN.146,    MAIN.151,    0.2277273                              MAIN                            
+   INPUT                       384,    MAIN.146,    MAIN.171,    3.061667                               MAIN                            
+   INPUT                       385,    MAIN.147,    MAIN.152,    0.6831818                              MAIN                            
+   INPUT                       386,    MAIN.147,    MAIN.172,    1.020555                               MAIN                            
+   INPUT                       387,    MAIN.148,    MAIN.153,    1.020555                               MAIN                            
+   INPUT                       388,    MAIN.148,    MAIN.213,    0.6831818                              MAIN                            
+   INPUT                       389,    MAIN.149,    MAIN.174,    0.5102777                              MAIN                            
+   INPUT                       390,    MAIN.150,    MAIN.175,    1.530833                               MAIN                            
+   INPUT                       391,    MAIN.151,    MAIN.176,    1.530833                               MAIN                            
+   INPUT                       392,    MAIN.152,    MAIN.177,    0.5102777                              MAIN                            
+   INPUT                       393,    MAIN.153,    MAIN.158,    1.020555                               MAIN                            
+   INPUT                       394,    MAIN.153,    MAIN.223,    0.6831818                              MAIN                            
+   INPUT                       395,    MAIN.154,    MAIN.164,    0.6831818                              MAIN                            
+   INPUT                       396,    MAIN.154,    MAIN.179,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       397,    MAIN.154,    MAIN.283,    0.02727273                             MAIN                            
+   INPUT                       398,    MAIN.155,    MAIN.165,    0.2277273                              MAIN                            
+   INPUT                       399,    MAIN.155,    MAIN.180,    1.530833                               MAIN                            
+   INPUT                       400,    MAIN.156,    MAIN.166,    0.2277273                              MAIN                            
+   INPUT                       401,    MAIN.156,    MAIN.181,    1.530833                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       402,    MAIN.156,    MAIN.198,    0.009090909                            MAIN                            
+   INPUT                       403,    MAIN.157,    MAIN.167,    0.6831818                              MAIN                            
+   INPUT                       404,    MAIN.157,    MAIN.182,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       405,    MAIN.157,    MAIN.243,    0.02727273                             MAIN                            
+   INPUT                       406,    MAIN.158,    MAIN.168,    1.020555                               MAIN                            
+   INPUT                       407,    MAIN.158,    MAIN.228,    0.6831818                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       408,    MAIN.159,    MAIN.160,    0.03333333                             MAIN                            
+   INPUT                       409,    MAIN.159,    MAIN.214,    0.3415909                              MAIN                            
+   INPUT                       410,    MAIN.159,    MAIN.274,    1.020555                               MAIN                            
+   INPUT                       411,    MAIN.160,    MAIN.215,    0.1138636                              MAIN                            
+   INPUT                       412,    MAIN.160,    MAIN.275,    3.061667                               MAIN                            
+   INPUT                       413,    MAIN.161,    MAIN.216,    0.1138636                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       414,    MAIN.161,    MAIN.254,    0.03333333                             MAIN                            
+   INPUT                       415,    MAIN.161,    MAIN.276,    3.061667                               MAIN                            
+   INPUT                       416,    MAIN.162,    MAIN.217,    0.3415909                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       417,    MAIN.162,    MAIN.255,    0.03333333                             MAIN                            
+   INPUT                       418,    MAIN.162,    MAIN.277,    1.020555                               MAIN                            
+   INPUT                       419,    MAIN.163,    MAIN.218,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       420,    MAIN.163,    MAIN.284,    0.02727273                             MAIN                            
+   INPUT                       421,    MAIN.164,    MAIN.169,    0.6831818                              MAIN                            
+   INPUT                       422,    MAIN.164,    MAIN.184,    1.020555                               MAIN                            
+   INPUT                       423,    MAIN.165,    MAIN.170,    0.2277273                              MAIN                            
+   INPUT                       424,    MAIN.165,    MAIN.185,    3.061667                               MAIN                            
+   INPUT                       425,    MAIN.166,    MAIN.171,    0.2277273                              MAIN                            
+   INPUT                       426,    MAIN.166,    MAIN.186,    3.061667                               MAIN                            
+   INPUT                       427,    MAIN.167,    MAIN.172,    0.6831818                              MAIN                            
+   INPUT                       428,    MAIN.167,    MAIN.187,    1.020555                               MAIN                            
+   INPUT                       429,    MAIN.168,    MAIN.173,    1.020555                               MAIN                            
+   INPUT                       430,    MAIN.168,    MAIN.233,    0.6831818                              MAIN                            
+   INPUT                       431,    MAIN.169,    MAIN.174,    0.6831818                              MAIN                            
+   INPUT                       432,    MAIN.169,    MAIN.189,    1.020555                               MAIN                            
+   INPUT                       433,    MAIN.170,    MAIN.175,    0.2277273                              MAIN                            
+   INPUT                       434,    MAIN.170,    MAIN.190,    3.061667                               MAIN                            
+   INPUT                       435,    MAIN.171,    MAIN.176,    0.2277273                              MAIN                            
+   INPUT                       436,    MAIN.171,    MAIN.191,    3.061667                               MAIN                            
+   INPUT                       437,    MAIN.172,    MAIN.177,    0.6831818                              MAIN                            
+   INPUT                       438,    MAIN.172,    MAIN.192,    1.020555                               MAIN                            
+   INPUT                       439,    MAIN.173,    MAIN.178,    1.020555                               MAIN                            
+   INPUT                       440,    MAIN.173,    MAIN.238,    0.6831818                              MAIN                            
+   INPUT                       441,    MAIN.174,    MAIN.194,    0.5102777                              MAIN                            
+   INPUT                       442,    MAIN.175,    MAIN.195,    1.530833                               MAIN                            
+   INPUT                       443,    MAIN.176,    MAIN.196,    1.530833                               MAIN                            
+   INPUT                       444,    MAIN.177,    MAIN.197,    0.5102777                              MAIN                            
+   INPUT                       445,    MAIN.178,    MAIN.183,    1.020555                               MAIN                            
+   INPUT                       446,    MAIN.178,    MAIN.243,    0.6831818                              MAIN                            
+   INPUT                       447,    MAIN.179,    MAIN.184,    0.6831818                              MAIN                            
+   INPUT                       448,    MAIN.179,    MAIN.199,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       449,    MAIN.179,    MAIN.288,    0.02727273                             MAIN                            
+   INPUT                       450,    MAIN.180,    MAIN.185,    0.2277273                              MAIN                            
+   INPUT                       451,    MAIN.180,    MAIN.200,    1.530833                               MAIN                            
+   INPUT                       452,    MAIN.181,    MAIN.186,    0.2277273                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       453,    MAIN.181,    MAIN.198,    0.009090909                            MAIN                            
+   INPUT                       454,    MAIN.181,    MAIN.201,    1.530833                               MAIN                            
+   INPUT                       455,    MAIN.182,    MAIN.187,    0.6831818                              MAIN                            
+   INPUT                       456,    MAIN.182,    MAIN.202,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       457,    MAIN.182,    MAIN.248,    0.02727273                             MAIN                            
+   INPUT                       458,    MAIN.183,    MAIN.188,    1.020555                               MAIN                            
+   INPUT                       459,    MAIN.183,    MAIN.248,    0.6831818                              MAIN                            
+   INPUT                       460,    MAIN.184,    MAIN.189,    0.6831818                              MAIN                            
+   INPUT                       461,    MAIN.184,    MAIN.204,    1.020555                               MAIN                            
+   INPUT                       462,    MAIN.185,    MAIN.190,    0.2277273                              MAIN                            
+   INPUT                       463,    MAIN.185,    MAIN.205,    3.061667                               MAIN                            
+   INPUT                       464,    MAIN.186,    MAIN.191,    0.2277273                              MAIN                            
+   INPUT                       465,    MAIN.186,    MAIN.206,    3.061667                               MAIN                            
+   INPUT                       466,    MAIN.187,    MAIN.192,    0.6831818                              MAIN                            
+   INPUT                       467,    MAIN.187,    MAIN.207,    1.020555                               MAIN                            
+   INPUT                       468,    MAIN.188,    MAIN.193,    1.020555                               MAIN                            
+   INPUT                       469,    MAIN.188,    MAIN.253,    0.6831818                              MAIN                            
+   INPUT                       470,    MAIN.189,    MAIN.194,    0.6831818                              MAIN                            
+   INPUT                       471,    MAIN.189,    MAIN.209,    1.020555                               MAIN                            
+   INPUT                       472,    MAIN.190,    MAIN.195,    0.2277273                              MAIN                            
+   INPUT                       473,    MAIN.190,    MAIN.210,    3.061667                               MAIN                            
+   INPUT                       474,    MAIN.191,    MAIN.196,    0.2277273                              MAIN                            
+   INPUT                       475,    MAIN.191,    MAIN.211,    3.061667                               MAIN                            
+   INPUT                       476,    MAIN.192,    MAIN.197,    0.6831818                              MAIN                            
+   INPUT                       477,    MAIN.192,    MAIN.212,    1.020555                               MAIN                            
+   INPUT                       478,    MAIN.193,    MAIN.198,    1.020555                               MAIN                            
+   INPUT                       479,    MAIN.193,    MAIN.258,    0.6831818                              MAIN                            
+   INPUT                       480,    MAIN.194,    MAIN.219,    0.5102777                              MAIN                            
+   INPUT                       481,    MAIN.195,    MAIN.220,    1.530833                               MAIN                            
+   INPUT                       482,    MAIN.196,    MAIN.221,    1.530833                               MAIN                            
+   INPUT                       483,    MAIN.197,    MAIN.222,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       484,    MAIN.198,    MAIN.201,    0.006363636                            MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       485,    MAIN.198,    MAIN.247,    0.03333333                             MAIN                            
+   INPUT                       486,    MAIN.198,    MAIN.263,    0.3415909                              MAIN                            
+   INPUT                       487,    MAIN.199,    MAIN.204,    0.6831818                              MAIN                            
+   INPUT                       488,    MAIN.199,    MAIN.224,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       489,    MAIN.200,    MAIN.203,    0.002727273                            MAIN                            
+   INPUT                       490,    MAIN.200,    MAIN.205,    0.2277273                              MAIN                            
+   INPUT                       491,    MAIN.200,    MAIN.225,    1.530833                               MAIN                            
+   INPUT                       492,    MAIN.201,    MAIN.206,    0.2277273                              MAIN                            
+   INPUT                       493,    MAIN.201,    MAIN.226,    1.530833                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       494,    MAIN.201,    MAIN.263,    0.002727273                            MAIN                            
+   INPUT                       495,    MAIN.202,    MAIN.207,    0.6831818                              MAIN                            
+   INPUT                       496,    MAIN.202,    MAIN.227,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       497,    MAIN.202,    MAIN.253,    0.02727273                             MAIN                            
+   INPUT                       498,    MAIN.203,    MAIN.208,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       499,    MAIN.203,    MAIN.225,    0.009090909                            MAIN                            
+   INPUT                       500,    MAIN.203,    MAIN.245,    0.006212121                            MAIN                            
+   INPUT                       501,    MAIN.204,    MAIN.209,    0.6831818                              MAIN                            
+   INPUT                       502,    MAIN.204,    MAIN.229,    1.020555                               MAIN                            
+   INPUT                       503,    MAIN.205,    MAIN.210,    0.2277273                              MAIN                            
+   INPUT                       504,    MAIN.205,    MAIN.230,    3.061667                               MAIN                            
+   INPUT                       505,    MAIN.206,    MAIN.211,    0.2277273                              MAIN                            
+   INPUT                       506,    MAIN.206,    MAIN.231,    3.061667                               MAIN                            
+   INPUT                       507,    MAIN.207,    MAIN.212,    0.6831818                              MAIN                            
+   INPUT                       508,    MAIN.207,    MAIN.232,    1.020555                               MAIN                            
+   INPUT                       509,    MAIN.208,    MAIN.213,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       510,    MAIN.208,    MAIN.267,    0.02727273                             MAIN                            
+   INPUT                       511,    MAIN.209,    MAIN.219,    0.6831818                              MAIN                            
+   INPUT                       512,    MAIN.209,    MAIN.234,    1.020555                               MAIN                            
+   INPUT                       513,    MAIN.210,    MAIN.220,    0.2277273                              MAIN                            
+   INPUT                       514,    MAIN.210,    MAIN.235,    3.061667                               MAIN                            
+   INPUT                       515,    MAIN.211,    MAIN.221,    0.2277273                              MAIN                            
+   INPUT                       516,    MAIN.211,    MAIN.236,    3.061667                               MAIN                            
+   INPUT                       517,    MAIN.212,    MAIN.222,    0.6831818                              MAIN                            
+   INPUT                       518,    MAIN.212,    MAIN.237,    1.020555                               MAIN                            
+   INPUT                       519,    MAIN.213,    MAIN.223,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       520,    MAIN.213,    MAIN.287,    0.02727273                             MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       521,    MAIN.214,    MAIN.215,    0.01893939                             MAIN                            
+   INPUT                       522,    MAIN.214,    MAIN.279,    0.5102777                              MAIN                            
+   INPUT                       523,    MAIN.215,    MAIN.280,    1.530833                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       524,    MAIN.216,    MAIN.259,    0.01893939                             MAIN                            
+   INPUT                       525,    MAIN.216,    MAIN.281,    1.530833                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::456                                             MAIN                            
+   INPUT                       526,    MAIN.217,    MAIN.260,    0.015                                  MAIN                            
+   INPUT                       527,    MAIN.217,    MAIN.282,    0.5102777                              MAIN                            
+   INPUT                       528,    MAIN.218,    MAIN.268,    0.5102777                              MAIN                            
+   INPUT                       529,    MAIN.219,    MAIN.239,    0.5102777                              MAIN                            
+   INPUT                       530,    MAIN.220,    MAIN.240,    1.530833                               MAIN                            
+   INPUT                       531,    MAIN.221,    MAIN.241,    1.530833                               MAIN                            
+   INPUT                       532,    MAIN.222,    MAIN.242,    0.5102777                              MAIN                            
+   INPUT                       533,    MAIN.223,    MAIN.228,    0.5102777                              MAIN                            
+   INPUT                       534,    MAIN.224,    MAIN.229,    0.6831818                              MAIN                            
+   INPUT                       535,    MAIN.224,    MAIN.244,    0.5102777                              MAIN                            
+   INPUT                       536,    MAIN.225,    MAIN.230,    0.2277273                              MAIN                            
+   INPUT                       537,    MAIN.225,    MAIN.245,    1.530833                               MAIN                            
+   INPUT                       538,    MAIN.226,    MAIN.231,    0.2277273                              MAIN                            
+   INPUT                       539,    MAIN.226,    MAIN.246,    1.530833                               MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       540,    MAIN.226,    MAIN.263,    0.009090909                            MAIN                            
+   INPUT                       541,    MAIN.227,    MAIN.232,    0.6831818                              MAIN                            
+   INPUT                       542,    MAIN.227,    MAIN.247,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       543,    MAIN.227,    MAIN.258,    0.02727273                             MAIN                            
+   INPUT                       544,    MAIN.228,    MAIN.233,    0.5102777                              MAIN                            
+   INPUT                       545,    MAIN.229,    MAIN.234,    0.6831818                              MAIN                            
+   INPUT                       546,    MAIN.229,    MAIN.249,    1.020555                               MAIN                            
+   INPUT                       547,    MAIN.230,    MAIN.235,    0.2277273                              MAIN                            
+   INPUT                       548,    MAIN.230,    MAIN.250,    3.061667                               MAIN                            
+   INPUT                       549,    MAIN.231,    MAIN.236,    0.2277273                              MAIN                            
+   INPUT                       550,    MAIN.231,    MAIN.251,    3.061667                               MAIN                            
+   INPUT                       551,    MAIN.232,    MAIN.237,    0.6831818                              MAIN                            
+   INPUT                       552,    MAIN.232,    MAIN.252,    1.020555                               MAIN                            
+   INPUT                       553,    MAIN.233,    MAIN.238,    0.5102777                              MAIN                            
+   INPUT                       554,    MAIN.234,    MAIN.239,    0.6831818                              MAIN                            
+   INPUT                       555,    MAIN.234,    MAIN.254,    1.020555                               MAIN                            
+   INPUT                       556,    MAIN.235,    MAIN.240,    0.2277273                              MAIN                            
+   INPUT                       557,    MAIN.235,    MAIN.255,    3.061667                               MAIN                            
+   INPUT                       558,    MAIN.236,    MAIN.241,    0.2277273                              MAIN                            
+   INPUT                       559,    MAIN.236,    MAIN.256,    3.061667                               MAIN                            
+   INPUT                       560,    MAIN.237,    MAIN.242,    0.6831818                              MAIN                            
+   INPUT                       561,    MAIN.237,    MAIN.257,    1.020555                               MAIN                            
+   INPUT                       562,    MAIN.238,    MAIN.243,    0.5102777                              MAIN                            
+   INPUT                       563,    MAIN.239,    MAIN.259,    0.5102777                              MAIN                            
+   INPUT                       564,    MAIN.240,    MAIN.260,    1.530833                               MAIN                            
+   INPUT                       565,    MAIN.241,    MAIN.261,    1.530833                               MAIN                            
+   INPUT                       566,    MAIN.242,    MAIN.262,    0.5102777                              MAIN                            
+   INPUT                       567,    MAIN.243,    MAIN.248,    0.5102777                              MAIN                            
+   INPUT                       568,    MAIN.244,    MAIN.249,    0.3415909                              MAIN                            
+   INPUT                       569,    MAIN.245,    MAIN.250,    0.1138636                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       570,    MAIN.246,    MAIN.247,    0.015                                  MAIN                            
+   INPUT                       571,    MAIN.246,    MAIN.251,    0.1138636                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       572,    MAIN.246,    MAIN.263,    0.006212121                            MAIN                            
+   INPUT                       573,    MAIN.247,    MAIN.252,    0.3415909                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::459                                             MAIN                            
+   INPUT                       574,    MAIN.247,    MAIN.263,    0.03030303                             MAIN                            
+   INPUT                       575,    MAIN.248,    MAIN.253,    0.5102777                              MAIN                            
+   INPUT                       576,    MAIN.249,    MAIN.254,    0.3415909                              MAIN                            
+   INPUT                       577,    MAIN.250,    MAIN.255,    0.1138636                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       578,    MAIN.251,    MAIN.252,    0.03333333                             MAIN                            
+   INPUT                       579,    MAIN.251,    MAIN.256,    0.1138636                              MAIN                            
+   INPUT                       580,    MAIN.252,    MAIN.257,    0.3415909                              MAIN                            
+   INPUT                       581,    MAIN.253,    MAIN.258,    0.5102777                              MAIN                            
+   INPUT                       582,    MAIN.254,    MAIN.259,    0.3415909                              MAIN                            
+   INPUT                       583,    MAIN.255,    MAIN.260,    0.1138636                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       584,    MAIN.256,    MAIN.257,    0.03333333                             MAIN                            
+   INPUT                       585,    MAIN.256,    MAIN.261,    0.1138636                              MAIN                            
+   INPUT                       586,    MAIN.257,    MAIN.262,    0.3415909                              MAIN                            
+   INPUT                       587,    MAIN.258,    MAIN.263,    0.5102777                              MAIN                            
+   INPUT           C Contact - Edge Contactor[MAIN][0]::457                                             MAIN                            
+   INPUT                       588,    MAIN.261,    MAIN.262,    0.01893939                             MAIN                            
+   INPUT                       589,    MAIN.264,    MAIN.269,    0.6831818                              MAIN                            
+   INPUT                       590,    MAIN.264,    MAIN.284,    0.5102777                              MAIN                            
+   INPUT                       591,    MAIN.265,    MAIN.270,    0.2277273                              MAIN                            
+   INPUT                       592,    MAIN.265,    MAIN.285,    1.530833                               MAIN                            
+   INPUT                       593,    MAIN.266,    MAIN.271,    0.2277273                              MAIN                            
+   INPUT                       594,    MAIN.266,    MAIN.286,    1.530833                               MAIN                            
+   INPUT                       595,    MAIN.267,    MAIN.272,    0.6831818                              MAIN                            
+   INPUT                       596,    MAIN.267,    MAIN.287,    0.5102777                              MAIN                            
+   INPUT                       597,    MAIN.268,    MAIN.273,    0.5102777                              MAIN                            
+   INPUT                       598,    MAIN.269,    MAIN.274,    0.6831818                              MAIN                            
+   INPUT                       599,    MAIN.270,    MAIN.275,    0.2277273                              MAIN                            
+   INPUT                       600,    MAIN.271,    MAIN.276,    0.2277273                              MAIN                            
+   INPUT                       601,    MAIN.272,    MAIN.277,    0.6831818                              MAIN                            
+   INPUT                       602,    MAIN.273,    MAIN.278,    0.5102777                              MAIN                            
+   INPUT                       603,    MAIN.274,    MAIN.279,    0.6831818                              MAIN                            
+   INPUT                       604,    MAIN.275,    MAIN.280,    0.2277273                              MAIN                            
+   INPUT                       605,    MAIN.276,    MAIN.281,    0.2277273                              MAIN                            
+   INPUT                       606,    MAIN.277,    MAIN.282,    0.6831818                              MAIN                            
+   INPUT                       607,    MAIN.278,    MAIN.283,    0.5102777                              MAIN                            
+   INPUT                       608,    MAIN.283,    MAIN.288,    0.5102777                              MAIN                            
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE     9
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ VARIABLES DATA BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER VARIABLES0, C3A1                                                              C3A1                            
+   INPUT           F     CALL LOADQ_C3A1_1769218054                                                     C3A1                            
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE    10
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ OPERATIONS BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER OPERATIONS                                                                    GLOBAL                          
+   INPUT                 CALL TDPREBL   $ PLACE BEFORE BUILD, CODE IN SUBROUTINE DATA                   GLOBAL                          
+   INPUT           BUILD DEFAULT,MAIN,SPACE,C3A1,C3A0                                                   GLOBAL                          
+   INPUT                 CALL TDPOSTBL   $ PLACE AFTER BUILD, CODE IN SUBROUTINE DATA                   GLOBAL                          
+   INPUT                 CALL TDHTR $ HOLD HEATER TEMPS FOR STEADY STATE                                GLOBAL                          
+   INPUT                 CALL STEADY                                                                    GLOBAL                          
+   INPUT                 CALL TDREL $ RELEASE HEATERS FOR TRANSIENT                                     GLOBAL                          
+   INPUT                 CALL TRANSIENT                                                                 GLOBAL                          
+   INPUT                 CALL TDHTOT $ OUTPUT HEATER SUMMARY                                            GLOBAL                          
+   INPUT                 CALL TDPOSTSL $ LOGIC IN SUBROUTINE DATA                                       GLOBAL                          
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE    11
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ OUTPUT DATA BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER OUTPUT CALLS, GLOBAL                                                          GLOBAL                          
+   INPUT                 CALL TPRINT('ALL')                                                             GLOBAL                          
+   INPUT                 IF(NSOL  .GT.  1 ) THEN                                                        GLOBAL                          
+   INPUT                     IF(TIMEN  .GE.  TIMEND) THEN                                               GLOBAL                          
+   INPUT                         CALL SAVE('ALL',0)                                                     GLOBAL                          
+   INPUT                     ELSE                                                                       GLOBAL                          
+   INPUT                         CALL SAVE('TR',0)                                                      GLOBAL                          
+   INPUT                     ENDIF                                                                      GLOBAL                          
+   INPUT                 ELSE IF( LOOPCT  .GT.  0 ) THEN                                                GLOBAL                          
+   INPUT                     CALL SAVE('ALL',0)                                                         GLOBAL                          
+   INPUT                 ENDIF                                                                          GLOBAL                          
+   INPUT           HEADER OUTPUT CALLS, GLOBAL_INIT                                                     GLOBAL_INIT                     
+   INPUT           F      CALL THERMALTSM(UDCA(TD_THERMAL_TIME_STEP)%CA)                                GLOBAL_INIT                     
+
+                            SYSTEMS IMPROVED NUMERICAL DIFFERENCING ANALYZER WITH FLUID INTEGRATOR           PAGE    12
+
+ MODEL = SINDA                                                                   3U.dwg - Keplerian
+ SUBROUTINE DATA BLOCK
+
+ CARD ORIGIN       12345678 1 2345678 2 2345678 3 2345678 4 2345678 5 2345678 6 2345678 7 2345678 8 CURRENT MODEL
+
+   INPUT           HEADER SUBROUTINES                                                                   GLOBAL                          
+   INPUT                 SUBROUTINE TDHTR                                                               GLOBAL                          
+   INPUT                 RETURN                                                                         GLOBAL                          
+   INPUT                 END                                                                            GLOBAL                          
+   INPUT                 SUBROUTINE TDREL                                                               GLOBAL                          
+   INPUT           F     RETURN                                                                         GLOBAL                          
+   INPUT           F     END                                                                            GLOBAL                          
+   INPUT           F     SUBROUTINE TDHTOT                                                              GLOBAL                          
+   INPUT           F     RETURN                                                                         GLOBAL                          
+   INPUT           F     END                                                                            GLOBAL                          
+   INPUT           F     SUBROUTINE TDHTRST                                                             GLOBAL                          
+   INPUT           F     RETURN                                                                         GLOBAL                          
+   INPUT           F     END                                                                            GLOBAL                          
+   INPUT           F     SUBROUTINE TDPREBL                                                             GLOBAL                          
+   INPUT                 CALL COMMON                                                                    GLOBAL                          
+   INPUT           F     RETURN                                                                         GLOBAL                          
+   INPUT           F     END                                                                            GLOBAL                          
+   INPUT           F     SUBROUTINE TDPOSTBL                                                            GLOBAL                          
+   INPUT                 CALL COMMON                                                                    GLOBAL                          
+   INPUT           F     RETURN                                                                         GLOBAL                          
+   INPUT           F     END                                                                            GLOBAL                          
+   INPUT           F     SUBROUTINE TDPOSTSL                                                            GLOBAL                          
+   INPUT                 CALL COMMON                                                                    GLOBAL                          
+   INPUT           F     RETURN                                                                         GLOBAL                          
+   INPUT           F     END                                                                            GLOBAL                          
+   INPUT           F     SUBROUTINE UDAINIT                                                             GLOBAL                          
+   INPUT           F     USE RCONV_MOD                                                                  GLOBAL                          
+   INPUT                 CALL COMMON                                                                    GLOBAL                          
+   INPUT           F     ACCELCON = 1.000000                                                            GLOBAL                          
+   INPUT           F     CALL SINDA_OMP_THREADS(8)                                                      GLOBAL                          
+   INPUT           F      TD_THERMAL_TIME_STEP = ALLOCUAC('TD_THERMAL_TIME_STEP',1,'',132)              GLOBAL                          
+   INPUT                  UDCA(TD_THERMAL_TIME_STEP)%CA = '                                             GLOBAL                          
+   INPUT           F    .'                                                                              GLOBAL                          
+   INPUT           F     RETURN                                                                         GLOBAL                          
+   INPUT           F     END                                                                            GLOBAL                          
+   INPUT           F     SUBROUTINE BASEPLOT                                                            GLOBAL                          
+   INPUT                 CALL COMMON                                                                    GLOBAL                          
+   INPUT           F     RETURN                                                                         GLOBAL                          
+   INPUT           F     END                                                                            GLOBAL                          
+   INPUT           C INSERT C3A0.k_in                                                                   GLOBAL                          
+   INPUT           CINSERT C3A0.k_in                                                                    GLOBAL                          
+   INPUT           C INSERT C3A1.hra                                                                    GLOBAL                          
+   INPUT           F     RECURSIVE SUBROUTINE LOADQ_C3A1_1769218054                                     GLOBAL                          
+   INPUT           F     USE BINARY_READER_MOD                                                          GLOBAL                          
+   INPUT                 CALL COMMON                                                                    GLOBAL                          
+   INPUT           F     INTEGER NVAR__TD                                                               GLOBAL                          
+   INPUT           F     REAL, ALLOCATABLE ::  DATA__TD(:)                                              GLOBAL                          
+   INPUT           F     DATA NVAR__TD /-1/                                                             GLOBAL                          
+   INPUT           F     SAVE NVAR__TD, DATA__TD                                                        GLOBAL                          
+   INPUT           F     IF( NVAR__TD  .LT.  0 ) THEN                                                   GLOBAL                          
+   INPUT           F         ALLOCATE (DATA__TD(8381))                                                  GLOBAL                          
+   INPUT           F         CALL LOAD_BINARY_SINGLET_ARRAYS(                                           GLOBAL                          
+   INPUT           F    +        'C3A1.hra_bin'                                                         GLOBAL                          
+   INPUT           F    +    , DATA__TD)                                                                GLOBAL                          
+   INPUT           F         NVAR__TD = 1                                                               GLOBAL                          
+   INPUT           F     ENDIF                                                                          GLOBAL                          
+   INPUT           F     DATA__TD(1 + 867 + 1) =                                                        GLOBAL                          
+   INPUT                +     C3A1.A(5+1)                                                               GLOBAL                          
+   INPUT           F     CALL LOADQ('C3A1',1,19,                                                        GLOBAL                          
+   INPUT           F    +    DATA__TD(1+289),                                                           GLOBAL                          
+   INPUT           F    +    DATA__TD(1+578),                                                           GLOBAL                          
+   INPUT           F    +    DATA__TD(1),                                                               GLOBAL                          
+   INPUT           F    +    DATA__TD(1+867),                                                           GLOBAL                          
+   INPUT                +    C3A1.A4)                                                                   GLOBAL                          
+   INPUT           F     RETURN                                                                         GLOBAL                          
+   INPUT           F     END                                                                            GLOBAL                          

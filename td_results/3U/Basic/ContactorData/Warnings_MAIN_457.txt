@@ -1,0 +1,6 @@
+Total connected Area = 0.01 .vs. Total = 0.01
+Potential overlapping volume objects.
+    Rect--Y[MAIN]::274
+    Rect-+Y [MAIN]::357
+    Rect--X [MAIN]::3EA
+    Rect-+X [MAIN]::41C

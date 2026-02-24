@@ -1,0 +1,5 @@
+Face Contactor[MAIN][0]::5CD
+From areas = 0.03405, To areas = 0.01
+This may be indicative of incorrect from-to surfaces
+Note that the 'to' area is only single sided in the calculation
+Total connected Area = 0.03405 .vs. Total = 0.03405

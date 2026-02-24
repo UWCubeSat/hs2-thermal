@@ -1,0 +1,39 @@
+[ AutoCAD - Fri Jan 23 17:29:17 2026  ]----------------------------------------
+No duplicate nodes or insulation nodalization warnings found
+
+Calculating Sinda data
+Calculating Thermal Analyzer Input took 0.05 sec
+
+Outputting Sinda data
+Outputting data for submodel GLOBAL...
+Outputting data for submodel GLOBAL_INIT...
+Outputting data for submodel MAIN...
+Outputting data for submodel SPACE...
+    Number of nodes:      289
+    Number of conductors: 608
+    
+Total Nodal Mass = 1.890000 kg
+
+
+*** RADCAD RAYTRACE RADK RUN START for database BASE-RcOptics.rck
+Database already exists, checking to see if the model has changed...
+Restart was successful. No calculations were performed.
+    288 calculation nodes
+    18906 radks were output, 22693 radks were filtered out
+    0 nodes(0%) have bij sum + bij inactive < .9
+    5000 average number of rays per node shot
+     
+    No overlapping surfaces greater than 10.0% found in BASE
+
+
+*** RADCAD RAYTRACE HEATING RATES RUN START for database BASE-orbit-RcOptics.rch
+Database already exists, checking to see if the model has changed...
+Restart was successful. No calculations were performed.
+
+*** Running Sinda model named C:\Users\HSL Lab\Thermal Desktop\3U\Keplerian\Keplerian.inp
+Successful completion of processor
+From C:\Users\HSL Lab\Thermal Desktop\3U\Keplerian\messages_Keplerian.log
+     TIMEN  =    5676.980      The ASTAP execution time is:    7.17970520001836       seconds
+Time to run Sinda = 10.09 sec
+
+Case Set Solved::Elapsed time = 10.69 sec
